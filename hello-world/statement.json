@@ -1,0 +1,36 @@
+{
+  "name": "Hello World",
+  "author": "Deyao",
+  "allowedTime": 1000,
+  "allowedMemory": 1024,
+  "difficulty": "Easy",
+  "tags": [
+    "one", "two", "three"
+  ],
+  "problemStatement": "Given an input string s, print `Hello {s}`",
+  "constrains": "N < 100",
+  "subtasks": [
+    {
+      "percentage": 0.3,
+      "constrains": "N < 10"
+    },
+    {
+      "percentage": 0.7,
+      "constrains": "No more constrains"
+    }
+  ],
+  "examples": [
+    {
+      "input": "world!",
+      "output": "Hello world!"
+    },
+    {
+      "input": "TOM",
+      "output": "Hello TOM"
+    },
+    {
+      "input": "abbbccdaksdjf3@#$@#$",
+      "output": "Hello abbbccdaksdjf3@#$@#$"
+    }
+  ]
+}
