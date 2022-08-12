@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "Alpha Contest 1",
+    "startTime": "2022-08-12T05:00:00.000Z",
+    "endTime": "2022-08-12T06:00:00.000Z"
+  },
+  "problems": [
+    {
+      "name": "Hello World",
+      "slug": "hello-world"
+    },
+    {
+      "name": "Add One",
+      "slug": "add-one"
+    }
+  ]
+}
+
+
