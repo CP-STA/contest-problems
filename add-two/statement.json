@@ -1,22 +1,22 @@
 {
   "name": "Add Two",
   "author": "Deyao",
-  "allowedTime": 1000,
-  "allowedMemory": 1024,
+  "time": 1000,
+  "memory": 1024,
   "difficulty": "Easy",
   "tags": [
     "one", "two", "three"
   ],
   "problemStatement": "Given an number, add two to it",
-  "constrains": "N < 100",
+  "constraints": "N < 100",
   "subtasks": [
     {
       "percentage": 0.3,
-      "constrains": "N < 10"
+      "constraints": "N < 10"
     },
     {
       "percentage": 0.7,
-      "constrains": "No more constrains"
+      "constraints": "No more constraints"
     }
   ],
   "examples": [
