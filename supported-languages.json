@@ -1,0 +1,26 @@
+{
+  "gcc-11.3": {
+    "name": "gcc@11.3",
+    "monaco": "c"
+  },
+  "java-11": {
+    "name": "Java 11",
+    "monaco": "java"
+  },
+  "python-3.10": {
+    "name": "python@3.10",
+    "monaco": "python"
+  },
+  "nodejs-11.22": {
+    "name": "nodejs@11.2",
+    "monaco": "javascript"
+  },
+  "ruby-3.0": {
+    "name": "ruby@3.0",
+    "monaco": "ruby"
+  },
+  "rust-1.59": {
+    "name": "rust@1.59",
+    "monaco": "rust"
+  }
+}
