@@ -5,7 +5,7 @@
     "compiled": true
   },
   "gcc-11.3": {
-    "name": "gcc@11.3",
+    "name": "g++@11.3",
     "monaco": "c++",
     "compiled": true
   },
