@@ -1,12 +1,12 @@
 {
-  "gcc-11.3-c": {
+  "gcc-11.3": {
     "name": "gcc@11.3",
     "monaco": "c",
     "compiled": true
   },
-  "gcc-11.3": {
+  "gpp-11.3": {
     "name": "g++@11.3",
-    "monaco": "c++",
+    "monaco": "cpp",
     "compiled": true
   },
   "java-11": {
@@ -36,7 +36,7 @@
   },
   "mono-6.8": {
     "name": "mono@6.8",
-    "monaco": "c#",
+    "monaco": "csharp",
     "compiled": true
   }
 }
