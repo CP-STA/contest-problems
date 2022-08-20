@@ -1,1 +1,6 @@
 python-dateutil
+pytest
+pytest-depends
+firebase-admin
+python-dotenv
+python-dateutil
