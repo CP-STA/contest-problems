@@ -4,7 +4,7 @@
     "monaco": "c",
     "compiled": true
   },
-  "gpp-11.3": {
+  "gcc-11.3": {
     "name": "c++ with gcc@11.3",
     "monaco": "cpp",
     "compiled": true
@@ -20,7 +20,7 @@
     "compiled": false
   },
   "nodejs-12.22": {
-    "name": "nodejs@12.2",
+    "name": "nodejs@11.2",
     "monaco": "javascript",
     "compiled": false
   },

@@ -41,10 +41,7 @@ def check_dir():
 
 def main():
   if args.all:
-    try:
-      list_of_files = subprocess.check_output(['git', 'ls-tree', '--name-only', 'master'], cwd=os.path.dirname(__file__)).splitlines()
-    except subprocess.CalledProcessError:
-      list_of_files = subprocess.check_output(['git', 'ls-tree', '--name-only', 'main'], cwd=os.path.dirname(__file__)).splitlines()
+    list_of_files = subprocess.check_output(['git', 'ls-tree', '--name-only', 'master'], cwd=os.path.dirname(__file__)).splitlines()
     returncodes = []
     for path in list_of_files:
       path = path.decode('utf-8')
