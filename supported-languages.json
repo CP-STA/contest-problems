@@ -1,5 +1,5 @@
 {
-  "gcc-11.3": {
+  "gcc-11.3-c": {
     "name": "c with gcc@11.3",
     "monaco": "c",
     "compiled": true

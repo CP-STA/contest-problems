@@ -1,0 +1,162 @@
+[
+  {
+    "input": "14 58\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "36 38\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "1 74\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "84 90\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "1 48\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "54 53\n",
+    "output": "No\n"
+  },
+  {
+    "input": "8 72\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "33 79\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "63 60\n",
+    "output": "No\n"
+  },
+  {
+    "input": "1 39\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "83 27\n",
+    "output": "No\n"
+  },
+  {
+    "input": "74 7\n",
+    "output": "No\n"
+  },
+  {
+    "input": "46 24\n",
+    "output": "No\n"
+  },
+  {
+    "input": "3 73\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "89 89\n",
+    "output": "No\n"
+  },
+  {
+    "input": "88 37\n",
+    "output": "No\n"
+  },
+  {
+    "input": "79 9\n",
+    "output": "No\n"
+  },
+  {
+    "input": "34 5\n",
+    "output": "No\n"
+  },
+  {
+    "input": "12 33\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "9 78\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "67 84\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "1 99\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "1 3\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "57 90\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "44 99\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "19 64\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "15 16\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "60 83\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "80 62\n",
+    "output": "No\n"
+  },
+  {
+    "input": "32 36\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "100 45\n",
+    "output": "No\n"
+  },
+  {
+    "input": "51 45\n",
+    "output": "No\n"
+  },
+  {
+    "input": "41 17\n",
+    "output": "No\n"
+  },
+  {
+    "input": "30 10\n",
+    "output": "No\n"
+  },
+  {
+    "input": "64 72\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "78 15\n",
+    "output": "No\n"
+  },
+  {
+    "input": "40 46\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "75 75\n",
+    "output": "No\n"
+  },
+  {
+    "input": "10 69\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "84 20\n",
+    "output": "No\n"
+  }
+]
