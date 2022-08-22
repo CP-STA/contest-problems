@@ -1,0 +1,162 @@
+[
+  {
+    "input": "18\n",
+    "output": "even\n"
+  },
+  {
+    "input": "-42\n",
+    "output": "even\n"
+  },
+  {
+    "input": "96\n",
+    "output": "even\n"
+  },
+  {
+    "input": "-18\n",
+    "output": "even\n"
+  },
+  {
+    "input": "88\n",
+    "output": "even\n"
+  },
+  {
+    "input": "74\n",
+    "output": "even\n"
+  },
+  {
+    "input": "96\n",
+    "output": "even\n"
+  },
+  {
+    "input": "-40\n",
+    "output": "even\n"
+  },
+  {
+    "input": "-25\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "-56\n",
+    "output": "even\n"
+  },
+  {
+    "input": "16\n",
+    "output": "even\n"
+  },
+  {
+    "input": "-23\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "-28\n",
+    "output": "even\n"
+  },
+  {
+    "input": "71\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "68\n",
+    "output": "even\n"
+  },
+  {
+    "input": "-92\n",
+    "output": "even\n"
+  },
+  {
+    "input": "97\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "54\n",
+    "output": "even\n"
+  },
+  {
+    "input": "-44\n",
+    "output": "even\n"
+  },
+  {
+    "input": "28\n",
+    "output": "even\n"
+  },
+  {
+    "input": "99\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "-55\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "-9\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "-100\n",
+    "output": "even\n"
+  },
+  {
+    "input": "99\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "83\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "21\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "32\n",
+    "output": "even\n"
+  },
+  {
+    "input": "-55\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "44\n",
+    "output": "even\n"
+  },
+  {
+    "input": "-97\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "-24\n",
+    "output": "even\n"
+  },
+  {
+    "input": "-65\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "59\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "6\n",
+    "output": "even\n"
+  },
+  {
+    "input": "13\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "-35\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "-90\n",
+    "output": "even\n"
+  },
+  {
+    "input": "-81\n",
+    "output": "odd\n"
+  },
+  {
+    "input": "-31\n",
+    "output": "odd\n"
+  }
+]

@@ -19,6 +19,7 @@ import pytest
 import argparse
 import subprocess
 import functools
+import check_past_problems
 
 dir_path = None
 problem_path = None
@@ -40,10 +41,12 @@ def check_dir():
   return dir_path
 
 def main():
+  exclude_dirs = ['contests']
   if args.all:
+    check_past_problems.main()
     try:
       list_of_files = subprocess.check_output(['git', 'ls-tree', '--name-only', 'master'], cwd=os.path.dirname(__file__)).splitlines()
-    except:
+    except subprocess.CalledProcessError:
       list_of_files = subprocess.check_output(['git', 'ls-tree', '--name-only', 'main'], cwd=os.path.dirname(__file__)).splitlines()
     returncodes = []
     for path in list_of_files:
@@ -58,6 +61,9 @@ def main():
     global dir_path
     dir_path = check_dir()
     os.chdir(dir_path)
+    if os.path.basename(dir_path) in exclude_dirs:
+      print("Skipping because the folder is excluded")
+      return 0
     return pytest.main(['-rs', '--dir', dir_path, os.path.join(problem_path, 'test_files.py')])
 
 if __name__ == '__main__':

@@ -18,6 +18,7 @@ import argparse
 import pytest
 import json
 from utils import parse_subtask_score
+import functools
 
 heading2_map = {
   "Author": "author",
@@ -120,13 +121,23 @@ def main(folder):
       statement_json[key] = examples
   with open(os.path.join(folder, 'statement.json'), 'w') as f:
     json.dump(statement_json, f, indent=2)
-
+  return 0
 
 if __name__ == '__main__':
 
   parser = argparse.ArgumentParser("compile statement.md to statement.json")
-  parser.add_argument("folder", help="The folder of the problem")
+  parser.add_argument("folder", nargs="?", help="The folder of the problem")
+  parser.add_argument('--all', '-A', action='store_true', default=False, help="Compile that for all past-problems (excluding contests)")
   args = parser.parse_args()
-  exit(main(args.folder))
+  if args.all:
+    retcode = []
+    with open("past-problems.json") as f:
+      problems = json.load(f)
+    for problem in problems:
+      retcode.append(main(problem['slug']))
+      pass
+    exit(functools.reduce(lambda x, y: x | y, retcode))
+  else:
+    exit(main(args.folder))
 
 
