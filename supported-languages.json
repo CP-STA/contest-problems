@@ -2,41 +2,49 @@
   "gcc-11.3-c": {
     "name": "c with gcc@11.3",
     "monaco": "c",
-    "compiled": true
+    "compiled": true,
+    "extension": "c"
   },
   "gpp-11.3": {
     "name": "c++ with gcc@11.3",
     "monaco": "cpp",
-    "compiled": true
+    "compiled": true,
+    "extension": "cpp"
   },
   "java-11": {
     "name": "Java 11",
     "monaco": "java",
-    "compiled": true
+    "compiled": true,
+    "extension": "java"
   },
   "python-3.10": {
     "name": "python@3.10",
     "monaco": "python",
-    "compiled": false
+    "compiled": false,
+    "extension": "py"
   },
   "nodejs-12.22": {
     "name": "nodejs@12.2",
     "monaco": "javascript",
-    "compiled": false
+    "compiled": false,
+    "extension": "js"
   },
   "ruby-3.0": {
     "name": "ruby@3.0",
     "monaco": "ruby",
-    "compiled": false
+    "compiled": false,
+    "extension": "rb"
   },
   "rust-1.59": {
     "name": "rust@1.59",
     "monaco": "rust",
-    "compiled": true
+    "compiled": true,
+    "extension": "rs"
   },
   "mono-6.8": {
     "name": "mono@6.8",
     "monaco": "csharp",
-    "compiled": true
+    "compiled": true,
+    "extension": "cs"
   }
 }
