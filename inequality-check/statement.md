@@ -24,6 +24,19 @@ Given two integers $a$ and $b$, check if $a < b$ holds.
 
 $0 \leq a, b \leq 100$
 
+
+### Subtask 1 (.3)
+
+$0 \leq a, b \leq 100 \leq 1000$
+
+### Subtask 2 (.3)
+
+$0 \leq a, b \leq 100 \leq 5000$
+
+### Subtask 3 (.4)
+
+No more constraints.
+
 ## Input
 
 The input contains two integers $a$ and $b$ in one line.
