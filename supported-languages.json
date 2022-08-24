@@ -42,7 +42,7 @@
     "extension": "rs"
   },
   "mono-6.8": {
-    "name": "mono@6.8",
+    "name": "c# with mono@6.8",
     "monaco": "csharp",
     "compiled": true,
     "extension": "cs"
