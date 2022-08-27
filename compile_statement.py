@@ -128,6 +128,7 @@ if __name__ == '__main__':
   parser = argparse.ArgumentParser("compile statement.md to statement.json")
   parser.add_argument("folder", nargs="?", help="The folder of the problem")
   parser.add_argument('--all', '-A', action='store_true', default=False, help="Compile that for all past-problems (excluding contests)")
+  parser.add_argument('--contest', '-C', action='store_true', default=False, help="Compile all the contest problems as defined in upcoming-contest.json")
   args = parser.parse_args()
   if args.all:
     retcode = []
@@ -137,6 +138,16 @@ if __name__ == '__main__':
       retcode.append(main(problem['slug']))
       pass
     exit(functools.reduce(lambda x, y: x | y, retcode))
+  elif args.contest:
+    retcode = []
+    with open("upcoming-contest.json") as f:
+      contest = json.load(f)
+    with open(f"contests/{contest}.json") as f:
+      problems = json.load(f)["problems"]
+    for problem in problems:
+      retcode.append(main(problem['slug']))
+      pass
+    exit(functools.reduce(lambda x, y: x | y, retcode)) 
   else:
     exit(main(args.folder))
 

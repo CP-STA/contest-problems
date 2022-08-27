@@ -4,6 +4,7 @@ import dateutil.parser
 import firebase_admin
 from firebase_admin import firestore
 from dotenv import load_dotenv
+import logging
 
 load_dotenv()
 
@@ -28,6 +29,13 @@ db = firestore.client()
 for problem in info['problems']:
   assert('name' in problem)
   assert('slug' in problem)
+  try:
+    with open(f"{problem['slug']}/statement.json") as f:
+        json.load(f)
+  except:
+    logging.error(f'Did you remember to compile {problem["slug"]}? You can it with `compile_statement.py -C` or as part of the push process with `push_contest.py`')
+    raise
+      
   doc_ref = db.collection('problems').document(problem['slug'])
   doc = doc_ref.get()
   if not doc.exists:

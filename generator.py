@@ -2,83 +2,54 @@ import numpy
 import json
 import random
 
-import heapq
-def dijkstra(graph, N, s):
-    dist = [float('inf') for _ in range(N)]
-    dist[s] = 0
-
-    data = [[0, s]]
-    while data:
-        pos = heapq.heappop(data)[1]
-        for node, cost in graph[pos]:
-            if dist[pos] + cost < dist[node]:
-                dist[node] = dist[pos] + cost
-                heapq.heappush(data, [dist[node], node])
-    return dist
-
+def matrix_multiplication(A, B): #行列AとBの掛け算
+    a = len(A)
+    b = len(A[0])
+    c = len(B[0])
+    M = []
+    for i in range(a):
+        M.append([])
+    for i in range(a):
+        for k in range(c):
+            M[i].append(0)
+    for i in range(a):
+        for k in range(c):
+            s = 0
+            for j in range(b):
+                s += A[i][j] * B[j][k]
+            M[i][k] = s
+    return M
 
 def main():
   test_cases = []
 
-  for _ in range(45):
-    n = random.randint(1, 1000)
-    m = random.randint(1, 1000)
-    s = random.randint(1, n)
+  for _ in range(40):
 
-    IN = str(n) + ' ' + str(m) + ' ' + str(s) + '\n'
+    p = random.randint(1, 30)
 
-    graph = []
-    for i in range(n):
-      graph.append([])
+    IN = str(p) + ' ' + str(p) + '\n'
 
-    sample = set()
-    li = []
-    for i in range(10 * m):
-      a = random.randint(1, n)
-      b = random.randint(1, n)
-      c = random.randint(1, 100)
-      if a > b:
-        a, b = b, a
-      if (a, b) not in sample:
-        li.append([a, b, c])
-        sample.add((a, b))
+    A = []
+    for i in range(p):
+      line = [random.randint(0, 30) for j in range(p)]
+      A.append(line)
+      line = [str(el) for el in line]
+      IN += ' '.join(line) + '\n'
 
-      a -= 1
-      b -= 1
-      graph[a].append([b, c])
-      graph[b].append([a, c])
 
-    if len(li) < m:
-      IN = 'INVALID'
-    li = li[:m]
-    s -= 1
-    for el in li:
-      a, b, c = el
-      IN += str(a) + ' ' + str(b) + ' ' + str(c) + '\n'
+    ans = matrix_multiplication(matrix_multiplication(A, A), A)
 
-    dist = dijkstra(graph, n, s)
-    cnt = 0
-    for el in dist:
-      if el <= 30:
-        cnt += 1
+    OUT = ''
+    for line in ans:
+      line = [str(el) for el in line]
+      OUT += ' '.join(line) + '\n'
+
 
     test_cases.append({
       "input": f"{IN}",
-      "output": f"{cnt}\n"
+      "output": f"{OUT}"
     })
 
-  # large_numbers = rng.integers(1, 100000, size = 20)
-  # for large_number in large_numbers:
-  #   IN = ''
-  #   cand = ['k', 'a', 'y', 'd', 'e', 'o']
-  #   for i in range(large_number):
-  #     IN += random.choice(cand)
-
-  #   test_cases.append({
-  #     "input": f"{IN}\n",
-  #     "output": f"{result(IN)}\n",
-  #     "subtask": 2
-  #   })
   
   print(json.dumps(test_cases, indent=2))
 

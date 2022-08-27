@@ -27,11 +27,11 @@ $0 \leq a, b \leq 100$
 
 ### Subtask 1 (.3)
 
-$0 \leq a, b \leq 100 \leq 1000$
+$0 \leq a, b \leq 1000$.
 
 ### Subtask 2 (.3)
 
-$0 \leq a, b \leq 100 \leq 5000$
+$0 \leq a, b \leq 5000$.
 
 ### Subtask 3 (.4)
 
