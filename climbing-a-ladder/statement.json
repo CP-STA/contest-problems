@@ -8,28 +8,28 @@
     "maths",
     "dynamic programming"
   ],
-  "statement": "You are designing an open world game. In the game, a character can climb a ladder to move up. In each move, the character can either climb up one unit by pressing the up arrow, or leap up 3 moves by pressing x. Note that if there is less than 3 units left of the ladder, the player can still choose to leap.\n\nNow you want the game to drop a loot whenever the player does a specific combination of moves and leaps. (Think of this as a sort of hidden cheat code or hidden combo) Obviously, the higher the ladder, the more unlikely the player will randomly stumble across the specific combination. So you decide to count the number of combinations of moves given the height of a ladder to gauge the difficulty of achieving the hidden combo.\n\nFor example, if the ladder is 5 units high, the number of combinations of moves is 9:\n\n- climb x5\n- climb x4, leap\n- climb x3, leap \n- climb x2, leap\n- climb, leap, climb\n- climb, leap, leap\n- leap, climb, climb\n- leap, climb, leap\n- leap, leap",
-  "constraints": "$1 \\le n \\le 10^{15}$",
+  "statement": "You are designing an open world game. In the game, a character can climb a ladder to move up. In each move, the character can either climb up one unit by pressing the up arrow, or leap up $3$ moves by pressing x. Note that if there is less than $3$ units left of the ladder, the player can still choose to leap.\n\nNow you want the game to drop a loot whenever the player does a specific combination of moves and leaps (Think of this as a sort of hidden cheat code or hidden combo). Obviously, the higher the ladder, the more unlikely the player will randomly stumble across the specific combination. So you decide to count the number of combinations of moves given the height of a ladder to gauge the difficulty of achieving the hidden combo.\n\nFor example, if the ladder is $5$ units high, the number of combinations of moves is $9$:\n\n- climb $\u00d7 5$\n- climb $\u00d7 4$, leap\n- climb $\u00d7 3$, leap \n- climb $\u00d7 2$, leap\n- climb, leap, climb\n- climb, leap, leap\n- leap, climb, climb\n- leap, climb, leap\n- leap, leap",
+  "constraints": "$1 \\le n \\le 10^{15}$.",
   "subtasks": [
     {
       "score": 0.2,
-      "constraints": "$1 \\le n \\le 20$"
+      "constraints": "$1 \\le n \\le 20$."
     },
     {
       "score": 0.2,
-      "constraints": "$1 \\le n \\le 10^{3}$"
+      "constraints": "$1 \\le n \\le 10^{3}$."
     },
     {
       "score": 0.2,
-      "constraints": "$1 \\le n \\le 10^{5}$"
+      "constraints": "$1 \\le n \\le 10^{5}$."
     },
     {
       "score": 0.4,
       "constraints": "No more constraints."
     }
   ],
-  "input": "Input one number, $n$, the height of the ladder",
-  "output": "Output one number, $a$, the remainder of the number of combinations of moves divided by 10^9+7.",
+  "input": "Input one number, $n$, the height of the ladder.",
+  "output": "Output one number, $a$, the remainder of the number of combinations of moves divided by $10^{9} + 7$.",
   "examples": [
     {
       "input": "5",

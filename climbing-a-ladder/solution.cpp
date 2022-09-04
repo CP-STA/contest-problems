@@ -4,6 +4,8 @@
 using namespace std;
 typedef long long ll;
 
+/* Authored by Deyao Chen */
+
 ll n;
 
 vector<vector<ll> > M = {{1, 0, 1}, {1, 0, 0}, {0, 1, 0}};

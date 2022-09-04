@@ -41,20 +41,18 @@ def check_dir():
   return dir_path
 
 def main():
-  exclude_dirs = ['contests']
+  exclude_dirs = ['contests', '.vscode', '.github']
+  with open(os.path.join(os.path.dirname(__file__),'.gitignore')) as f:
+    exclude_dirs += list(map(lambda x: x.strip(), f.read().split('\n')))
   if args.all:
     check_past_problems.main()
-    try:
-      list_of_files = subprocess.check_output(['git', 'ls-tree', '--name-only', 'master'], cwd=os.path.dirname(__file__)).splitlines()
-    except subprocess.CalledProcessError:
-      list_of_files = subprocess.check_output(['git', 'ls-tree', '--name-only', 'main'], cwd=os.path.dirname(__file__)).splitlines()
+    list_of_files = os.listdir(os.path.dirname(__file__))
     returncodes = []
     for path in list_of_files:
-      path = path.decode('utf-8')
       abs_path = os.path.join(os.path.dirname(__file__), path)
       if os.path.isdir(abs_path) and not path.startswith('.'):
-        print(['python', __file__, abs_path])
-        p = subprocess.run(['python', __file__, abs_path])
+        print(['python3', __file__, abs_path])
+        p = subprocess.run(['python3', __file__, abs_path])
         returncodes.append(p.returncode)
     return functools.reduce(lambda x, y: x | y, returncodes)
   else:
