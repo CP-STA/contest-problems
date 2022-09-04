@@ -1,0 +1,39 @@
+{
+  "name": "Climbing a Ladder",
+  "author": "Deyao Chen",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606\u2606",
+  "tags": [
+    "maths",
+    "dynamic programming"
+  ],
+  "statement": "You are designing an open world game. In the game, a character can climb a ladder to move up. In each move, the character can either climb up one unit up by pressing the up arrow, or leap up 3 moves by pressing x. Note that if there is less than 3 units left of the ladder, the player can still choose to leap.\n\nNow you want the game will drop a loot when the player does a specific combination of move and leap. Obviously, the higher the ladder, the more unlikely the the player will randomly stumble across the specific combination. So you decide to count the number of combinations of moves given the height of a ladder.\n\nFor example, if the ladder is 5 units high, the number of combination of moves is 9:\n- climb x5\n- climb x4, leap\n- climb x3, leap \n- climb x2, leap\n- climb, leap, climb\n- climb, leap, leap\n- leap, climb, climb\n- leap, climb, leap\n- leap, leap",
+  "constraints": "$1 \\le n \\le 10^{15}$",
+  "subtasks": [
+    {
+      "score": 0.2,
+      "constraints": "$1 \\le n \\le 20$"
+    },
+    {
+      "score": 0.2,
+      "constraints": "$1 \\le n \\le 10^{3}$"
+    },
+    {
+      "score": 0.2,
+      "constraints": "$1 \\le n \\le 10^{5}$"
+    },
+    {
+      "score": 0.4,
+      "constraints": "No more constraints."
+    }
+  ],
+  "input": "Input one number, $n$, the height of the ladder",
+  "output": "Output one number, $a$, the remainder of the number of combinations of moves divided by 10^9+7.",
+  "examples": [
+    {
+      "input": "5",
+      "output": "9"
+    }
+  ]
+}
