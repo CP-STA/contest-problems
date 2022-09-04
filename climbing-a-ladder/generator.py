@@ -29,14 +29,10 @@ for i in range(1, 21):
 p = gen.choice(np.arange(1, 1001), 50)
 add_test_cases(p, 2)
 
-p = gen.choice(np.arange(1, 50000), 50)
-add_test_cases(p, 3)
-
 p = gen.choice(np.arange(50000, 100001), 50)
 add_test_cases(p, 3)
 
-add_test_cases_rand(1, 31, 30, 4)
-add_test_cases_rand(31, 10**4 + 1, 30, 4)
+add_test_cases_rand(1, 20, 19, 4)
 add_test_cases_rand(10**4, 10**5, 30, 4)
 
 for i in range(30):
@@ -47,3 +43,5 @@ add_test_case(10**15, 4)
 
 with open('test-cases.json', 'w') as f:
   json.dump(test_cases, f, indent=2)
+
+print(len(test_cases))
