@@ -1,0 +1,17 @@
+{
+  "files.associations": {
+    "atomic": "cpp",
+    "chrono": "cpp",
+    "map": "cpp",
+    "mutex": "cpp",
+    "numeric": "cpp",
+    "random": "cpp",
+    "regex": "cpp",
+    "shared_mutex": "cpp",
+    "barrier": "cpp",
+    "*.tcc": "cpp",
+    "algorithm": "cpp",
+    "variant": "cpp",
+    "iostream": "cpp"
+  }
+}

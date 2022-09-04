@@ -236,6 +236,13 @@ def test_json_subtasks_numbered_in_range(dir):
     if subtasks_out_range:
       raise ValueError(f"The subtask number of some test cases is out of range (expected {subtasks_should}), they are (0 indexed) {subtasks_out_range}")
 
+@pytest.mark.depends(on=['test_files_exist'])
+def test_json_less_than_200(dir):
+  with open(os.path.join(dir, 'test-cases.json')) as f:
+    test_cases = json.load(f)
+  if len(test_cases) > 200:
+    raise ValueError("Because of a bug on the executioner, it currently does not support more than 200 test cases. We are working on to fix the bug.")
+
 @pytest.mark.depends(on=['test_files_exist']) 
 def test_json_subtasks_numbered_all(dir):
   if subtasks_count(dir):
