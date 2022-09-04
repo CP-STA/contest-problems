@@ -1,0 +1,202 @@
+[
+  {
+    "input": "14 58\n",
+    "output": "Yes\n",
+    "subtask": 1
+  },
+  {
+    "input": "36 38\n",
+    "output": "Yes\n",
+    "subtask": 1
+  },
+  {
+    "input": "1 74\n",
+    "output": "Yes\n",
+    "subtask": 1
+  },
+  {
+    "input": "84 90\n",
+    "output": "Yes\n",
+    "subtask": 1
+  },
+  {
+    "input": "1 48\n",
+    "output": "Yes\n",
+    "subtask": 2
+  },
+  {
+    "input": "54 53\n",
+    "output": "No\n",
+    "subtask": 2
+  },
+  {
+    "input": "8 72\n",
+    "output": "Yes\n",
+    "subtask": 2
+  },
+  {
+    "input": "33 79\n",
+    "output": "Yes\n",
+    "subtask": 2
+  },
+  {
+    "input": "63 60\n",
+    "output": "No\n",
+    "subtask": 2
+  },
+  {
+    "input": "1 39\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "83 27\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "74 7\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "46 24\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "3 73\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "89 89\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "88 37\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "79 9\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "34 5\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "12 33\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "9 78\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "67 84\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "1 99\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "1 3\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "57 90\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "44 99\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "19 64\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "15 16\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "60 83\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "80 62\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "32 36\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "100 45\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "51 45\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "41 17\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "30 10\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "64 72\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "78 15\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "40 46\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "75 75\n",
+    "output": "No\n",
+    "subtask": 3
+  },
+  {
+    "input": "10 69\n",
+    "output": "Yes\n",
+    "subtask": 3
+  },
+  {
+    "input": "84 20\n",
+    "output": "No\n",
+    "subtask": 3
+  }
+]

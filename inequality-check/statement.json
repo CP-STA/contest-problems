@@ -1,0 +1,36 @@
+{
+  "name": "Inequality Check",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606",
+  "tags": [],
+  "statement": "Given two integers $a$ and $b$, check if $a < b$ holds.",
+  "constraints": "$0 \\leq a, b \\leq 100$",
+  "subtasks": [
+    {
+      "score": 0.3,
+      "constraints": "$0 \\leq a, b \\leq 1000$."
+    },
+    {
+      "score": 0.3,
+      "constraints": "$0 \\leq a, b \\leq 5000$."
+    },
+    {
+      "score": 0.4,
+      "constraints": "No more constraints."
+    }
+  ],
+  "input": "The input contains two integers $a$ and $b$ in one line.",
+  "output": "Output \"Yes\" if the inequality holds. Otherwise, output \"No\".",
+  "examples": [
+    {
+      "input": "3 5",
+      "output": "Yes"
+    },
+    {
+      "input": "77 77",
+      "output": "No"
+    }
+  ]
+}
