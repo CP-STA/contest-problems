@@ -1,17 +1,37 @@
 {
   "info": {
     "name": "Alpha Contest 1",
-    "startTime": "2022-08-12T05:00:00.000Z",
-    "endTime": "2022-08-12T06:00:00.000Z"
+    "startTime": "2022-09-13T04:00:00.000Z",
+    "endTime": "2022-09-13T06:05:20.000Z"
   },
   "problems": [
     {
-      "name": "Hello World",
-      "slug": "hello-world"
+      "name": "Taxi Fare",
+      "slug": "taxi-fare"
     },
     {
-      "name": "Add Three",
-      "slug": "add-three"
+      "name": "What is Missing",
+      "slug": "what-is-missing"
+    },
+    {
+      "name": "Divisible by Both",
+      "slug": "divisible-by-both"
+    },
+    {
+      "name": "Sum of Divisors",
+      "slug": "sum-of-divisors"
+    }, 
+    {
+      "name": "Triplets Divisible by 5",
+      "slug": "triplet-divisible-by-5"
+    },
+    {
+      "name": "Friend and Friend of Friend",
+      "slug": "friend-and-friend-of-friend"
+    },
+    {
+      "name": "Protein Master",
+      "slug": "protein-master"
     }
   ]
 }
