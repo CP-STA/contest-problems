@@ -5,6 +5,7 @@ import firebase_admin
 from firebase_admin import firestore
 from dotenv import load_dotenv
 import logging
+import os
 
 load_dotenv()
 
@@ -29,6 +30,10 @@ db = firestore.client()
 for problem in info['problems']:
   assert('name' in problem)
   assert('slug' in problem)
+  assert('difficulty' in problem)
+  with open(f'{os.path.join(problem["slug"], "statement.json")}') as f:
+    statement = json.load(f)
+    assert statement["difficulty"] == problem["difficulty"], f"difficulties in index and in problem are not the same for {problem['slug']}"
   try:
     with open(f"{problem['slug']}/statement.json") as f:
         json.load(f)
