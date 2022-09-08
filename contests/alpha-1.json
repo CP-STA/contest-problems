@@ -7,31 +7,38 @@
   "problems": [
     {
       "name": "Taxi Fare",
-      "slug": "taxi-fare"
+      "slug": "taxi-fare",
+      "difficulty": "☆"
     },
     {
       "name": "What is Missing",
-      "slug": "what-is-missing"
+      "slug": "what-is-missing",
+      "difficulty": "☆☆"
     },
     {
       "name": "Divisible by Both",
-      "slug": "divisible-by-both"
+      "slug": "divisible-by-both",
+      "difficulty": "☆☆"
     },
     {
       "name": "Sum of Divisors",
-      "slug": "sum-of-divisors"
+      "slug": "sum-of-divisors",
+      "difficulty": "☆☆☆"
     }, 
     {
       "name": "Triplets Divisible by 5",
-      "slug": "triplet-divisible-by-5"
+      "slug": "triplet-divisible-by-5",
+      "difficulty": "☆☆☆"
     },
     {
       "name": "Friend and Friend of Friend",
-      "slug": "friend-and-friend-of-friend"
+      "slug": "friend-and-friend-of-friend",
+      "difficulty": "☆☆☆☆"
     },
     {
       "name": "Protein Master",
-      "slug": "protein-master"
+      "slug": "protein-master",
+      "difficulty": "☆☆☆☆"
     }
   ]
 }
