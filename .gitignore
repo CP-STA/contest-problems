@@ -95,3 +95,4 @@ docs/_build/
 venv
 .env
 __pycache__
+key.json
