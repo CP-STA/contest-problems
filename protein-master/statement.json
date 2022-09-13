@@ -1,0 +1,32 @@
+{
+  "name": "Protein Master",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "You are reading a book \"vegetal protein encyclopaedia\" which contains myriads of information about vegetables and their protein quantities (g) contained in $100$kg of each of them. While reading from the top to bottom, you take notes of vegetables of your interest and their protein quantities on a piece of paper. During your work, Kay intermittently interrupts and asks you \"Can you tell me the name of the vegetable which is second least abundant in protein on your note?\". Hence your task it to report a name of the vegetable which is second least abundant in protein amongst vegetables you have written down on your paper so far. Be noted that the protein quantities of vegetables are all distinct.\n\nIn the first example, the nutrition order transfers in a following way (the least nutritious vegetable comes in the left and the most nutritious vegetable comes in the right): [mashroom] \u2192 [tomato, mashroom] \u2192 [tomato, potato, mashroom] \u2192 (OUT: potato) \u2192 [tomato, cucumber, potato, mashroom] \u2192 (OUT: cucumber) \u2192 (OUT: cucumber).\n\nIn the second example, the nutrition order transfers in a following way: [pumpkin] \u2192 [pumpkin, okra] \u2192 [leet, pumpkin, okra] \u2192 (OUT: pumpkin) \u2192 [leet, pumpkin, okra, barley] \u2192 (OUT: pumpkin).",
+  "constraints": "$3 \\leq q \\leq 10^{4}$.",
+  "subtasks": [
+    {
+      "score": 0.2,
+      "constraints": "$3 \\leq q \\lt 100$."
+    },
+    {
+      "score": 0.8,
+      "constraints": "$100 \\leq q \\leq 10^{4}$."
+    }
+  ],
+  "input": "The first line contains one integer $q$, the number of queries you are to process.\nFollowing are $q$ lines each of which is classified as either of two types of queries:\n$1$- if the first element of an input is \"IN\", vegetable name and its protein quantity follow, all separated by single spaces (e.g. IN tomato $7$).\n$2$- if the first element of an input is \"OUT\", report the vegetable name which is second least abundant in protein amongst those written down on your note so far.\nIt is guaranteed that all protein quantities are whole numbers and all distinct, and you are not asked to report a vegetable name until three or more vegetables are on your note.",
+  "output": "Output the second-least-protein-abundant vegetable name in each line.",
+  "examples": [
+    {
+      "input": "9\nIN mashroom 2910\nIN tomato 700\nIN potato 2201\nOUT\nIN cucumber 999\nOUT\nIN barley 6103\nOUT\nOUT",
+      "output": "potato\ncucumber\ncucumber \ncucumber"
+    },
+    {
+      "input": "6\nIN pumpkin 1119\nIN okra 2114\nIN leet 522\nOUT\nIN barley 6103\nOUT",
+      "output": "pumpkin\npumpkin"
+    }
+  ]
+}

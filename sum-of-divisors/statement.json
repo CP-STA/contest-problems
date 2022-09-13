@@ -1,0 +1,36 @@
+{
+  "name": "Sum of Divisors",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "Given an integer $n$, output the sum of divisors of $n$.\n\nIn the first example, divisors of $20$ are $(1, 2, 4, 5, 10, 20)$ hence the answer is $1 + 2 + 4 + 5 + 10 + 20 = 42$.\n\nIn the second example, divisors of $2022$ are $(1, 2, 3, 6, 337, 674, 1011, 2022)$ hence the answer is $1 + 2 + 3 + 6 + 337 + 674 + 1011 + 2022 = 4056$.",
+  "constraints": "$0 \\lt n \\leq 10^{10}$.",
+  "subtasks": [
+    {
+      "score": 0.3,
+      "constraints": "$0 \\lt n \\lt 100$."
+    },
+    {
+      "score": 0.3,
+      "constraints": "$100 \\leq n \\lt 10^{5}$."
+    },
+    {
+      "score": 0.4,
+      "constraints": "$10^{5} \\leq n \\leq 10^{10}$."
+    }
+  ],
+  "input": "Input consists of a single integer, $n$.",
+  "output": "Output the answer.",
+  "examples": [
+    {
+      "input": "20",
+      "output": "42"
+    },
+    {
+      "input": "2022",
+      "output": "4056"
+    }
+  ]
+}

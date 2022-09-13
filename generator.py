@@ -6,58 +6,160 @@ from itertools import accumulate
 from math import gcd
 from collections import deque
 
-def main():
+def solve(n, a, m, li):
+    a.sort()
 
-  test_cases = []
-
-  for _ in range(50):
-    n = random.randint(2, 15)
-    m = random.randint(2, 15)
-
-    links = []
-    links_memo = set()
-    for i in range(m):
-      a = random.randint(1, n)
-      b = random.randint(1, n)
-      if a > b:
-        a, b = b, a
-      if (a, b) not in links_memo and a != b:
-        links.append([str(a), str(b)])
-        links_memo.add((a, b))
-    m = len(links)
-
-    IN = str(n) + ' ' + str(m) + '\n'
-    for el in links:
-      IN += el[0] + ' ' + el[1] + '\n'
-
-    links = [[int(el[0]) - 1, int(el[1]) - 1] for el in links]
-
-    deg = {}
+    largest = {}
+    smallest = {}
+    for el in a:
+        largest[el] = -1
+        smallest[el] = n
     for i in range(n):
-      deg[i] = 0
-    for link in links:
-      deg[link[0]] += 1
-      deg[link[1]] += 1
+        largest[a[i]] = i
+    for i in range(n - 1, -1, -1):
+        smallest[a[i]] = i
 
-    cnt = 0
-    for k, v in deg.items():
-      if v % 2 == 1:
-        cnt += 1
+    OUT = ''
+    for el in li:
+        x, op = el
+        if op == 'LARGER':
+            flag = True
+            left = -1
+            right = n
+            while left + 1 < right:
+                mid = (left + right) // 2
+                if a[mid] < x:
+                    left = mid
+                elif x < a[mid]:
+                    right = mid
+                else:
+                    OUT += str((n - 1) - (largest[a[mid]] + 1) + 1) + '\n'
+                    flag = False
+                    break
+            if flag:
+                if x < a[0]:
+                    OUT += str(n) + '\n'
+                elif a[n - 1] <= x:
+                    OUT += str(0) + '\n'
+                else:
+                    OUT += str(n - right) + '\n'
+        else:
+            flag = True
+            left = -1
+            right = n
+            while left + 1 < right:
+                mid = (left + right) // 2
+                if a[mid] < x:
+                    left = mid
+                elif x < a[mid]:
+                    right = mid
+                else:
+                    OUT += str(smallest[a[mid]]) + '\n'
+                    flag = False
+                    break
+            if flag:
+                if a[n - 1] < x:
+                    OUT += str(n) + '\n'
+                elif x <= a[0]:
+                    OUT += str(0) + '\n'
+                else:
+                    OUT += str(right) + '\n'
+    return OUT
 
-    if cnt == 0 or cnt == 2:
-      OUT = 'Yes'
-    else:
-      OUT = 'No'
+def main():
+    test_cases = []
+    for _ in range(30):
+        n = random.randint(1, 99)
+        m = random.randint(1, 99)
+        a = []
+        for i in range(n):
+            a.append(random.randint(-300, 300))
+        li = []
+        for i in range(m):
+            x = random.randint(-300, 300)
+            op = ''
+            if random.randint(0, 1) == 0:
+                op = 'SMALLER'
+            else:
+                op = 'LARGER'
+            el = [x, op]
+            li.append(el)
 
+        OUTPUT = solve(n, a, m, li)
+        a = [str(el) for el in a]
+        random.shuffle(a)
+        li = [[str(el[0]), el[1]] for el in li]
+        INPUT = str(n) + '\n' + ' '.join(a) + '\n' + str(m) + '\n'
+        for el in li:
+            INPUT += el[0] + ' ' + el[1] + '\n'
+        test_cases.append({
+            "input": f"{INPUT}",
+            "output": f"{OUTPUT}",
+            "subtask": 1
+        })
 
-    test_cases.append({
-      "input": f"{IN}",
-      "output": f"{OUT}"
-    }) 
+    for _ in range(30):
+        n = random.randint(100, 100000)
+        m = random.randint(100, 100000)
+        a = []
+        for i in range(n):
+            a.append(random.randint(-100000, 100000))
+        li = []
+        for i in range(m):
+            x = random.randint(-100000, 100000)
+            op = ''
+            if random.randint(0, 1) == 0:
+                op = 'SMALLER'
+            else:
+                op = 'LARGER'
+            el = [x, op]
+            li.append(el)
 
-  
-  print(json.dumps(test_cases, indent=2))
+        OUTPUT = solve(n, a, m, li)
+        a = [str(el) for el in a]
+        random.shuffle(a)
+        li = [[str(el[0]), el[1]] for el in li]
+        INPUT = str(n) + '\n' + ' '.join(a) + '\n' + str(m) + '\n'
+        for el in li:
+            INPUT += el[0] + ' ' + el[1] + '\n'
+        test_cases.append({
+            "input": f"{INPUT}",
+            "output": f"{OUTPUT}",
+            "subtask": 2
+        })
+
+    for _ in range(1):
+        n = 100000
+        m = 100000
+        a = []
+        for i in range(n):
+            a.append(random.randint(-100000, 100000))
+        li = []
+        for i in range(m):
+            x = random.randint(-100000, 100000)
+            op = ''
+            if random.randint(0, 1) == 0:
+                op = 'SMALLER'
+            else:
+                op = 'LARGER'
+            el = [x, op]
+            li.append(el)
+
+        OUTPUT = solve(n, a, m, li)
+        a = [str(el) for el in a]
+        random.shuffle(a)
+        li = [[str(el[0]), el[1]] for el in li]
+        INPUT = str(n) + '\n' + ' '.join(a) + '\n' + str(m) + '\n'
+        for el in li:
+            INPUT += el[0] + ' ' + el[1] + '\n'
+        test_cases.append({
+            "input": f"{INPUT}",
+            "output": f"{OUTPUT}",
+            "subtask": 2
+        })
+
+    print(json.dumps(test_cases, indent=2))
 
 
 if __name__ == '__main__':
-  main()
+    main()

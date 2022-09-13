@@ -1,0 +1,23 @@
+{
+  "name": "Taxi Fare",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606",
+  "tags": [],
+  "statement": "In Tokyo, initial taxi fare is $X$ yen. Taxi fare increases by every kilometer by $Y$ yen. \nOne day, Kay has moved $Z$ meters by taxi. How much should he pay for the fare?\n\nIn the first example, taxi fare starts at $410$ yen. The fare increases by $400$ yen at the point where Kay has moved $1000$m (= $1$km). Hence the total fare is $810$ yen.\n\nIn the second example, taxi fare starts at $0$ yen. Because Kay travelled by less than a kilometer, the fare never increases. Hence the total fare is $0$ yen.",
+  "constraints": "$0 \\leq X \\leq 1000$, $0 \\leq Y \\leq 500$, $0 \\leq Z \\leq 10000$.",
+  "subtasks": [],
+  "input": "The input contains three integers in a single line: $X$, $Y$, and $Z$.",
+  "output": "Output the taxi fare in yen.",
+  "examples": [
+    {
+      "input": "410 400 1900",
+      "output": "810"
+    },
+    {
+      "input": "0 100 944",
+      "output": "0"
+    }
+  ]
+}
