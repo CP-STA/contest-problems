@@ -5,7 +5,7 @@
   "memory": 256000,
   "difficulty": "\u2606\u2606",
   "tags": [],
-  "statement": "Given integers $n$, $a$, $b$, count the number of $i$ $(1 \\leq i \\leq n)$ such that $i$ is divisible by both $a$ and $b$.\n\nIn the first example, set of $i$ that satisfy the condition are $12$ and $24$. Hence the answer is $2$.\n\nIn the second example, there's no $i$ that satisfy the condition whatsoever. Hence $0$.",
+  "statement": "Given integers $n$, $a$, $b$, count the number of $i$ $(1 \\leq i \\leq n)$ such that $i$ is divisible by both $a$ and $b$.\n\nIn the first example, set of $i$ that satisfy the condition are $12$ and $24$. Hence the answer is $2$.\n\nIn the second example, there's no $i$ that satisfies the condition whatsoever. Hence $0$.",
   "constraints": "$1 \\leq n \\leq 10^{9}$, $1 \\leq a, b \\leq 300$.",
   "subtasks": [
     {

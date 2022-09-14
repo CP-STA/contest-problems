@@ -5,7 +5,7 @@
   "memory": 256000,
   "difficulty": "\u2606\u2606",
   "tags": [],
-  "statement": "Given two strings $s$ and $t$, report what letters should $t$ be supplemented with so that $t$ can be identical to $s$ by arranging the letters in $t$ appropriately.\n\nNote that, both $s$ and $t$ consist of only small Latin letters.\n\nIt is guaranteed that the answer exists.\n\nIn the first example, if you re-arrange $t$ and makes it \"chch\" and compares it with $s$, \"church\", you can notice that $1$ \"u\" and $1$ \"r\" are missing. Because \"r\" is lexicographically smaller than \"u\", the answer should be in the order shown in the example output.\n\nIn the second example, you don't need to re-arrange $t$, but all vowels are missing: $1$ \"o\", $3$ \"i\"s, and $2$ \"a\"s.",
+  "statement": "Given two strings $s$ and $t$, report what letters $t$ should be supplemented with so that $t$ can be identical to $s$ by arranging the letters in $t$ appropriately.\n\nNote that, both $s$ and $t$ consist of only small Latin letters.\n\nIt is guaranteed that the answer exists.\n\nIn the first example, if you re-arrange $t$ and makes it \"chch\" and compares it with $s$, \"church\", you can notice that $1$ \"u\" and $1$ \"r\" are missing. Because \"r\" is lexicographically smaller than \"u\", the answer should be in the order shown in the example output.\n\nIn the second example, you don't need to re-arrange $t$, but all vowels are missing: $1$ \"o\", $3$ \"i\"s, and $2$ \"a\"s.",
   "constraints": "Lengths of $s$ and $t$ never exceed $10^{6}$.",
   "subtasks": [],
   "input": "The first line of input contains a string $s$.\nThe second line of input contains a string $t$.",
