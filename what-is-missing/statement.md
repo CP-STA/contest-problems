@@ -20,7 +20,7 @@ Kay Akashi
 
 ## Problem Statement 
 
-Given two strings $s$ and $t$, report what letters should $t$ be supplemented with so that $t$ can be identical to $s$ by arranging the letters in $t$ appropriately.
+Given two strings $s$ and $t$, report what letters $t$ should be supplemented with so that $t$ can be identical to $s$ by arranging the letters in $t$ appropriately.
 
 Note that, both $s$ and $t$ consist of only small Latin letters.
 

@@ -24,7 +24,7 @@ Given integers $n$, $a$, $b$, count the number of $i$ $(1 \leq i \leq n)$ such t
 
 In the first example, set of $i$ that satisfy the condition are $12$ and $24$. Hence the answer is $2$.
 
-In the second example, there's no $i$ that satisfy the condition whatsoever. Hence $0$.
+In the second example, there's no $i$ that satisfies the condition whatsoever. Hence $0$.
 
 ## Constraints
 

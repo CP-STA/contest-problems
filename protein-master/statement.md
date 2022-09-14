@@ -20,7 +20,7 @@ Kay Akashi
 
 ## Problem Statement 
 
-You are reading a book "vegetal protein encyclopaedia" which contains myriads of information about vegetables and their protein quantities (g) contained in $100$kg of each of them. While reading from the top to bottom, you take notes of vegetables of your interest and their protein quantities on a piece of paper. During your work, Kay intermittently interrupts and asks you "Can you tell me the name of the vegetable which is second least abundant in protein on your note?". Hence your task it to report a name of the vegetable which is second least abundant in protein amongst vegetables you have written down on your paper so far. Be noted that the protein quantities of vegetables are all distinct.
+You are reading a book "vegetal protein encyclopaedia" which contains myriads of information about vegetables and their protein quantities (g) contained in $100$kg of each of them. While reading from the top to bottom, you take notes of vegetables of your interest and their protein quantities on a piece of paper. During your work, Kay intermittently interrupts and asks you "Can you tell me the name of the vegetable which is second least abundant in protein on your note?". Hence your task is to report a name of the vegetable which is second least abundant in protein amongst vegetables you have written down on your paper so far. Be noted that the protein quantities of vegetables are all distinct.
 
 In the first example, the nutrition order transfers in a following way (the least nutritious vegetable comes in the left and the most nutritious vegetable comes in the right): [mashroom] → [tomato, mashroom] → [tomato, potato, mashroom] → (OUT: potato) → [tomato, cucumber, potato, mashroom] → (OUT: cucumber) → (OUT: cucumber).
 
