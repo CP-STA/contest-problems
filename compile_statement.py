@@ -113,11 +113,15 @@ def main(folder):
           current_heading = "input"
         elif line.startswith("### ") and line[3:].strip() == "Output":
           current_heading = "output"
+        elif line.startswith("### ") and line[3:].strip() == "Explanation":
+          current_heading = 'explanation'
+          examples[-1]['explanation'] = []
         else:
           examples[-1][current_heading].append(line)
       for i in range(len(examples)):
         examples[i]["input"] = ''.join(examples[i]["input"]).strip()[3:-3].strip()
         examples[i]["output"] = ''.join(examples[i]["output"]).strip()[3:-3].strip()
+        examples[i]["explanation"] = ''.join(examples[i]["explanation"])
       statement_json[key] = examples
   with open(os.path.join(folder, 'statement.json'), 'w') as f:
     json.dump(statement_json, f, indent=2)

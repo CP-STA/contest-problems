@@ -183,7 +183,6 @@ def test_markdown_example_format(dir):
           watch = False
       elif watch:
         active_lines.append(line)
-    ## TODO: parse the example files
 
     examples = []
     for line in active_lines:
@@ -194,21 +193,35 @@ def test_markdown_example_format(dir):
         examples[-1][1].append(line)
       elif line.strip():
         raise ValueError(f"The first line under the example heading is not `### Input`. We found `{line}`.")
-    
-    if len(examples) % 2 != 0:
-      raise ValueError("There should be an even number of headings (Input, Output alternating, but we only detected odd number of them")
-    for i, example in enumerate(examples):
-      if i % 2 == 0:
-        if example[0] != "Input":
-          raise ValueError(f"Failed to parse the examples. The {i}'th heading is supposed to be `Input` but we found `{example}.")
-      else:
-        if example[0] != "Output":
-          raise ValueError(f"Failed to parse the examples. The {i}'th heading is supposed to be `Output` but we found `{example}.")
-      content = ''.join(example[1]).strip()
-      if not re.match(r"^```\s*\n[\s\S]*\n```$", content) and not re.match(r"^```\s*\n```$", content):
-        raise ValueError(f"Code block not formatted correctly. Found {repr(content)}.")
-      
 
+    heading_order = [['Input', True], ['Output', True], ['Explanation', False]] # [name, mandatory]
+    
+    def is_next_heading(heading_prev, heading_next) -> bool:
+      if heading_prev is None:
+        return heading_next == heading_order[0][0]
+      for i in range(len(heading_order)):
+        if heading_prev == heading_order[i][0]:
+          j = i + 1
+          if j == len(heading_order):
+            j = 0
+          while heading_next != heading_order[j][0]:
+            if heading_order[j][1]:
+              return False
+            j += 1
+            if j == len(heading_order):
+              j = 0
+          return True
+
+    prev = None  
+    for example in examples:
+      if not is_next_heading(prev, example[0]):
+        raise ValueError(f"The examples headings are not in the right order. It needs to be Input, Output and Explanation where Explanation is option")
+      if example[0] == "Input" or example[0] == "Output":
+        content = ''.join(example[1]).strip()
+        if not re.match(r"^```\s*\n[\s\S]*\n```$", content) and not re.match(r"^```\s*\n```$", content):
+          raise ValueError(f"Code block not formatted correctly. Found {repr(content)}.")
+      prev = example[0]
+      
 @pytest.mark.depends(on=['test_files_exist'])
 def test_json_subtasks_marked(dir):
   if subtasks_count(dir):

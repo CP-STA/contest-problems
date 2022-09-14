@@ -25,18 +25,6 @@ You are designing an open world game. In the game, a character can climb a ladde
 
 Now you want the game to drop a loot whenever the player does a specific combination of moves and leaps (Think of this as a sort of hidden cheat code or hidden combo). Obviously, the higher the ladder, the more unlikely the player will randomly stumble across the specific combination. So you decide to count the number of combinations of moves given the height of a ladder to gauge the difficulty of achieving the hidden combo.
 
-For example, if the ladder is $5$ units high, the number of combinations of moves is $9$:
-
-- climb $× 5$
-- climb $× 4$, leap
-- climb $× 3$, leap 
-- climb $× 2$, leap
-- climb, leap, climb
-- climb, leap, leap
-- leap, climb, climb
-- leap, climb, leap
-- leap, leap
-
 ## Constraints
 
 $1 \le n \le 10^{15}$.
@@ -78,3 +66,17 @@ Output one number, $a$, the remainder of the number of combinations of moves div
 ```
 9
 ```
+
+### Explanation
+
+The ladder is $5$ units high, the number of combinations of moves is $9$:
+
+- climb $× 5$
+- climb $× 4$, leap
+- climb $× 3$, leap 
+- climb $× 2$, leap
+- climb, leap, climb
+- climb, leap, leap
+- leap, climb, climb
+- leap, climb, leap
+- leap, leap
