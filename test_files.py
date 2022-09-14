@@ -215,7 +215,7 @@ def test_markdown_example_format(dir):
     prev = None  
     for example in examples:
       if not is_next_heading(prev, example[0]):
-        raise ValueError(f"The examples headings are not in the right order. It needs to be Input, Output and Explanation where Explanation is option")
+        raise ValueError(f"The examples headings are not in the right order. It needs to be Input, Output and Explanation where Explanation is optional")
       if example[0] == "Input" or example[0] == "Output":
         content = ''.join(example[1]).strip()
         if not re.match(r"^```\s*\n[\s\S]*\n```$", content) and not re.match(r"^```\s*\n```$", content):
