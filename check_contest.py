@@ -23,6 +23,9 @@ assert('endTime' in info['info'])
 
 dateutil.parser.isoparse(info['info']['startTime'])
 dateutil.parser.isoparse(info['info']['endTime'])
+if 'next' in info:
+  dateutil.parser.isoparse(info['next']['startTime'])
+  dateutil.parser.isoparse(info['next']['endTime'])
 
 firebase_admin.initialize_app()
 db = firestore.client()
@@ -34,6 +37,7 @@ for problem in info['problems']:
   with open(f'{os.path.join(problem["slug"], "statement.json")}') as f:
     statement = json.load(f)
     assert statement["difficulty"] == problem["difficulty"], f"difficulties in index and in problem are not the same for {problem['slug']}"
+    assert statement["name"] == problem["name"], f"problem names are different for {problem['slug']}"
   try:
     with open(f"{problem['slug']}/statement.json") as f:
         json.load(f)
