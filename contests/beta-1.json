@@ -1,0 +1,46 @@
+{
+  "info": {
+    "name": "Beta Contest 1",
+    "startTime": "2022-10-05T15:00:00.000Z",
+    "endTime": "2022-10-05T16:20:00.000Z"
+  },
+  "problems": [
+    {
+      "name": "Proper Acronym",
+      "slug": "proper-acronym",
+      "difficulty": "☆"
+    },
+    {
+      "name": "Power Variety",
+      "slug": "power-variety",
+      "difficulty": "☆☆"
+    },
+    {
+      "name": "Incomplete Triangle",
+      "slug": "incomplete-triangle",
+      "difficulty": "☆☆"
+    },
+    {
+      "name": "Kay's Favourite Numbers",
+      "slug": "kays-favourite-numbers",
+      "difficulty": "☆☆☆"
+    }, 
+    {
+      "name": "Count Larger and Smaller",
+      "slug": "count-larger-and-smaller",
+      "difficulty": "☆☆☆"
+    },
+    {
+      "name": "Ostracise Kay and Deyao",
+      "slug": "ostracise-kay-and-deyao",
+      "difficulty": "☆☆☆"
+    },
+    {
+      "name": "Leaders on Circle",
+      "slug": "leaders-on-circle",
+      "difficulty": "☆☆☆☆"
+    }
+  ]
+}
+
+
