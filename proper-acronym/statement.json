@@ -1,0 +1,25 @@
+{
+  "name": "Proper Acronym",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606",
+  "tags": [],
+  "statement": "Kay is struggling with memorising the medical terms he learnt at his clinical workshop. Now he has to remember the term that consists of $n$ words. To facilitate memorisation, Kay generated an acronym of the term, which is given as $s$. Check if $s$ is really a proper acronym of the term.\n\nNote that, acronym is an abbreviation formed from the initial letters of other words and pronounced as a word.",
+  "constraints": "$1 \\leq n \\leq 10$. The length of each word in the medical term never exceeds $10$. \nIt is guaranteed that the initial letter of each word is capitalised.",
+  "subtasks": [],
+  "input": "The first line of input contains an integer, $n$.\nThe second line of input contains $n$ words which compose a name of the medical term.\nThe third line of input conatins a though-to-be proper acronym, $s$.",
+  "output": "If $s$ is a proper acronym, output \"Yes\". Otherwise, output \"No\".",
+  "examples": [
+    {
+      "input": "3\nAcute Mountain Sickness\nAMS",
+      "output": "Yes",
+      "explanation": "The acronym for Acute Mountain Sickness is AMS. Kay also gave AMS as $s$. It is clearly correct.\n"
+    },
+    {
+      "input": "3\nComputerised Axial Tomography\nDOG",
+      "output": "No",
+      "explanation": "The acronym for Computerised Axial Tomography is CAT. However Kay gave DOG. It is incorrect."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Kay's Favourite Numbers",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "You're given an integer array $a$ consisting of $n$ distinct integers $a_{1}$, ..., $a_{n}$, Kay's favourite numbers. Then you're given an integer array $b$ consisting of integers $b_{1}$, ..., $b_{n}$. Count the number of $i$ $(1 \\leq i \\leq n)$ such that $b_{i}$ is one of Kay's favourite numbers.\n\nNote that, $b$ doesn't necessarily consist of distinct integers.",
+  "constraints": "$1 \\leq n \\leq 10^{5}$.",
+  "subtasks": [
+    {
+      "score": 0.2,
+      "constraints": "$1 \\leq n \\lt 100$. No element in $a$ and $b$ is larger than $200$ and smaller than $1$."
+    },
+    {
+      "score": 0.8,
+      "constraints": "$100 \\leq n \\leq 10^{5}$. No element in $a$ and $b$ is larger than $10^{7}$ and smaller than $1$."
+    }
+  ],
+  "input": "The first line contains one number, $n$.\nThe second line contains $n$ numbers, which is an array $a$.\nThe third line also contains $n$ numbers, which is an array $b$.",
+  "output": "Output the answer.",
+  "examples": [
+    {
+      "input": "3\n1 7 9\n4 9 9",
+      "output": "2",
+      "explanation": "$i = 2, 3$ meet the condition since $9$ is one of Kay's favourite numbers. Hence the answer is $2$.\n"
+    },
+    {
+      "input": "3\n1 2 3\n3 2 1",
+      "output": "3",
+      "explanation": "$i = 1, 2, 3$ meet the condition hence the answer is $3$."
+    }
+  ]
+}

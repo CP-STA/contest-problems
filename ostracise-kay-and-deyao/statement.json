@@ -1,0 +1,23 @@
+{
+  "name": "Ostracise Kay and Deyao",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "Given a string $s$ consisting of only small Latin letters \"k\", \"a\", \"y\", \"d\", \"e\", and \"o\", remove from s the substrings \"kay\" and \"deyao\" until their names completely vanish. Your task is to output the resulting string.",
+  "constraints": "Length of $s$ is smaller than or equal to $4 \u00d7 10^{5}$.",
+  "subtasks": [],
+  "input": "The input contains one string, $s$.",
+  "output": "Output the resulting string.",
+  "examples": [
+    {
+      "input": "kkayadyeyadeyaoo",
+      "output": "kadyeyao"
+    },
+    {
+      "input": "deykakayyao",
+      "output": ""
+    }
+  ]
+}

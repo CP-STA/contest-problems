@@ -1,0 +1,70 @@
+# Incomplete Triangle
+
+## Author
+
+Kay Akashi
+
+## Time (ms)
+
+1000
+
+## Memory (kb)
+
+256000
+
+## Difficulty
+
+☆☆
+
+## Tags
+
+## Problem Statement 
+
+You're given $r$ red sticks, $g$ green sticks, and $b$ blue sticks of equal length. Your task is to create a non-degenerate triangle by using those sticks. In this game, sticks of the same colour should align on a single line. However, you notice that in some cases you're short of some sticks to achieve this task. Report the minimum number of sticks of any colour you additionally need in order to achieve this task.
+
+In this game, you're not allowed to leave any sticks unused. In other words, you have to use all sticks you have in your hand.
+
+## Constraints
+
+$1 \leq r, g, b \leq 30$.
+
+## Input
+
+The input contains three integers $r$, $g$, and $b$ in a single line.
+
+## Output
+
+Output the answer.
+
+## Examples
+
+### Input
+
+```
+4 7 1
+```
+
+### Output
+
+```
+3
+```
+
+### Explanation
+
+You have $4$ red sticks, $7$ green sticks, and $1$ blue stick. If you're further provided with extra $3$ blue sticks, you can achieve the task. Let alone, other methods are allowed as well; you can also be provided with extra $2$ red sticks and $1$ blue stick to achieve the game. However you perform, the answer is $3$.
+
+### Input
+
+```
+30 30 30
+```
+
+### Output
+```
+0
+```
+
+### Explanation
+
+You have $30$ red sticks, $30$ green sticks, and $30$ blue sticks. You can already create a non-degenerate triangle with given sticks. Hence the answer is $0$.

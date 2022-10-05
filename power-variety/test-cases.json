@@ -1,0 +1,162 @@
+[
+  {
+    "input": "64462 64462\n",
+    "output": "e\n"
+  },
+  {
+    "input": "52118 119047\n",
+    "output": "b\n"
+  },
+  {
+    "input": "396545 167339\n",
+    "output": "a\n"
+  },
+  {
+    "input": "393089 321030\n",
+    "output": "a\n"
+  },
+  {
+    "input": "412140 14165\n",
+    "output": "a\n"
+  },
+  {
+    "input": "161967 179379\n",
+    "output": "b\n"
+  },
+  {
+    "input": "29589 493904\n",
+    "output": "b\n"
+  },
+  {
+    "input": "338309 131848\n",
+    "output": "a\n"
+  },
+  {
+    "input": "373347 465637\n",
+    "output": "b\n"
+  },
+  {
+    "input": "198058 320810\n",
+    "output": "b\n"
+  },
+  {
+    "input": "56470 69317\n",
+    "output": "b\n"
+  },
+  {
+    "input": "142254 295633\n",
+    "output": "b\n"
+  },
+  {
+    "input": "328811 19562\n",
+    "output": "a\n"
+  },
+  {
+    "input": "306883 72217\n",
+    "output": "a\n"
+  },
+  {
+    "input": "86599 111907\n",
+    "output": "b\n"
+  },
+  {
+    "input": "220379 220379\n",
+    "output": "e\n"
+  },
+  {
+    "input": "412530 453827\n",
+    "output": "b\n"
+  },
+  {
+    "input": "255197 470351\n",
+    "output": "b\n"
+  },
+  {
+    "input": "51297 125080\n",
+    "output": "b\n"
+  },
+  {
+    "input": "483001 117813\n",
+    "output": "a\n"
+  },
+  {
+    "input": "72711 448647\n",
+    "output": "b\n"
+  },
+  {
+    "input": "101387 101387\n",
+    "output": "e\n"
+  },
+  {
+    "input": "357760 158994\n",
+    "output": "a\n"
+  },
+  {
+    "input": "19997 462770\n",
+    "output": "b\n"
+  },
+  {
+    "input": "93098 385729\n",
+    "output": "b\n"
+  },
+  {
+    "input": "263462 275374\n",
+    "output": "b\n"
+  },
+  {
+    "input": "353948 376425\n",
+    "output": "b\n"
+  },
+  {
+    "input": "230208 355126\n",
+    "output": "b\n"
+  },
+  {
+    "input": "224819 39540\n",
+    "output": "a\n"
+  },
+  {
+    "input": "7244 7244\n",
+    "output": "e\n"
+  },
+  {
+    "input": "476383 279985\n",
+    "output": "a\n"
+  },
+  {
+    "input": "201313 422247\n",
+    "output": "b\n"
+  },
+  {
+    "input": "325841 100321\n",
+    "output": "a\n"
+  },
+  {
+    "input": "59868 69949\n",
+    "output": "b\n"
+  },
+  {
+    "input": "184588 458625\n",
+    "output": "b\n"
+  },
+  {
+    "input": "285646 466457\n",
+    "output": "b\n"
+  },
+  {
+    "input": "405924 323131\n",
+    "output": "a\n"
+  },
+  {
+    "input": "159555 159555\n",
+    "output": "e\n"
+  },
+  {
+    "input": "171843 201481\n",
+    "output": "b\n"
+  },
+  {
+    "input": "329232 191937\n",
+    "output": "a\n"
+  }
+]

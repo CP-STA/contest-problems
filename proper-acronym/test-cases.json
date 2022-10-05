@@ -1,0 +1,122 @@
+[
+  {
+    "input": "8\nMbije Zzyah Dybq Z Jhmzlsaye Zz Vmr Omw\nMZDZJZVO\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "3\nExvnqofrg Xyj Dshiix\nEXDID\n",
+    "output": "No\n"
+  },
+  {
+    "input": "4\nRencvbnk Ilyxlba Z Mjqdx\nRIZM\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "3\nAglbmtdk Oct Iqtgrji\nAOQ\n",
+    "output": "No\n"
+  },
+  {
+    "input": "4\nSeklfhnd Qrjhxu Pluvetvdvq Nxl\nSQPP\n",
+    "output": "No\n"
+  },
+  {
+    "input": "2\nRtpnzqlk Pxfr\nPR\n",
+    "output": "No\n"
+  },
+  {
+    "input": "7\nI Qyyurqoy Wrsvnjgvba Qodndljunc Nx V Khoselrxi\nIQWQNVK\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "2\nWl X\nWX\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "2\nKof Uuoesdhh\nKUU\n",
+    "output": "No\n"
+  },
+  {
+    "input": "7\nMkkeqnsou Z J Wzp Tcp Bznqepkdlf Xo\nMZJWTBX\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "7\nRd E Fwl Mk Cutnte Wugzl Vv\nREFMCVV\n",
+    "output": "No\n"
+  },
+  {
+    "input": "2\nUqal Dqyvkm\nDD\n",
+    "output": "No\n"
+  },
+  {
+    "input": "9\nRbb Hjwavxye Xf Ueq Ozm Garb Mmw Bz Ld\nRHXUOGMBL\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "4\nZbjytnmu Ek Zws Vj\nZEZV\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "5\nLtsm F Hsao Ecmqlshwzs Tc\nLHET\n",
+    "output": "No\n"
+  },
+  {
+    "input": "6\nEckztkk Zzems B G Dimf Zcc\nEZBG DZ\n",
+    "output": "No\n"
+  },
+  {
+    "input": "8\nEmmogzxjth Drhlnccjqb Lv Ihrxpnsu Gjkmnvyxe Utlinji Jeyp Qmvgalb\nEDLIGUJQ\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "10\nVjnmlrka Ck Swgdkozntw Xvzzdunixa Zb Gwdse B Fsgomylbfv Fupc Pid\nVjnmlrka Ck Swgdkozntw Xvzzdunixa Zb Gwdse B Fsgomylbfv Fupc Pid\n",
+    "output": "No\n"
+  },
+  {
+    "input": "1\nXy\nX\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "5\nJmtary In A Xfk Vprjmete\nKIAXV\n",
+    "output": "No\n"
+  },
+  {
+    "input": "3\nObzeqwy Stdlqwmas X\nX\n",
+    "output": "No\n"
+  },
+  {
+    "input": "10\nJlnokhvxor Iumowwapri Phqhur Zq Zkrvdj Rxmzue Ilwvgq Pekdxyjleu Dyyxxk Oxqquvtpdu\nJIPZZRIPDO\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "4\nUfdwrastl Dfc Hv Mzak\nUDHM\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "4\nTskyuwmf Deurha Oewpodnstj X\nSYTF\n",
+    "output": "No\n"
+  },
+  {
+    "input": "4\nZcvk Pukrsby Jjzaxsvyjm Rcac\nZPJR\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "4\nWvvmwxj Zooglr Fpngu Szb\nWZFS\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "1\nAwelpene\nAWELPENE\n",
+    "output": "No\n"
+  },
+  {
+    "input": "9\nXpptmcy Ayykg Pcyoybt Vb Raih Falvvbb Algfpng Bvdax Rqwztxb\nXAPVRFABR\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "6\nJfrwdfubtm Ewbbjnvbx Jndqmcbz P Slt Aygtaz\nJEJPSA\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "8\nZnmpz Blq E Lhjoi Nhfpfdi Oc Ssfuujl Vha\nZNBELNOSV\n",
+    "output": "No\n"
+  }
+]

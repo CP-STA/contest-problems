@@ -1,0 +1,28 @@
+{
+  "name": "Count Larger and Smaller",
+  "author": "Kay Akashi",
+  "time": 2000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "You are given an array $a$ consisting of $n$ integers $a_{1}$, ..., $a_{n}$. Then in each of $m$ lines you are given an integer $x$ and an operation: \"LARGER\" or \"SMALLER\". If the operation is \"LARGER\", your task is to output the number of elements in $a$ that are STRICTLY larger than $x$. If the operation is \"SMALLER\", your task is to output the number of elements in $a$ that are STRICTLY smaller than $x$.",
+  "constraints": "",
+  "subtasks": [
+    {
+      "score": 0.2,
+      "constraints": "$1 \\leq n, m \\lt 100$. Neither element in $a$ nor $x$ is smaller than $-300$ and larger than $300$."
+    },
+    {
+      "score": 0.8,
+      "constraints": "$100 \\leq n, m \\leq 10^{5}$. Neither element in $a$ nor $x$ is smaller than $-10^{5}$ and larger than $10^{5}$."
+    }
+  ],
+  "input": "The first line of input contains one integer, $n$.\nThe second line contains $n$ integers that compose an array $a$.\nThe theird line of input contains one integer, $m$.\nFollowing are $m$ lines each of which contains an integer $x$ and an operation which is either \"LARGER\" or \"SMALLER\".",
+  "output": "Output the answers in $m$ lines.",
+  "examples": [
+    {
+      "input": "5\n18 19 -130 6 100\n4\n18 LARGER\n-1000 SMALLER\n-300 LARGER\n0 SMALLER",
+      "output": "2\n0\n5\n1"
+    }
+  ]
+}

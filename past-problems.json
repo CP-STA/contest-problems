@@ -1,5 +1,47 @@
 [
   {
+    "name": "Proper Acronym",
+    "slug": "proper-acronym",
+    "date": "2022-10-05T15:00:00.000Z",
+    "difficulty": "☆"
+  },
+  {
+    "name": "Power Variety",
+    "slug": "power-variety",
+    "date": "2022-10-05T15:00:00.000Z",
+    "difficulty": "☆☆"
+  },
+  {
+    "name": "Incomplete Triangle",
+    "slug": "incomplete-triangle",
+    "date": "2022-10-05T15:00:00.000Z",
+    "difficulty": "☆☆"
+  },
+  {
+    "name": "Kay's Favourite Numbers",
+    "slug": "kays-favourite-numbers",
+    "date": "2022-10-05T15:00:00.000Z",
+    "difficulty": "☆☆☆"
+  }, 
+  {
+    "name": "Count Larger and Smaller",
+    "slug": "count-larger-and-smaller",
+    "date": "2022-10-05T15:00:00.000Z",
+    "difficulty": "☆☆☆"
+  },
+  {
+    "name": "Ostracise Kay and Deyao",
+    "slug": "ostracise-kay-and-deyao",
+    "date": "2022-10-05T15:00:00.000Z",
+    "difficulty": "☆☆☆"
+  },
+  {
+    "name": "Leaders on Circle",
+    "slug": "leaders-on-circle",
+    "date": "2022-10-05T15:00:00.000Z",
+    "difficulty": "☆☆☆☆"
+  },
+  {
     "name": "Taxi Fare",
     "slug": "taxi-fare",
     "date": "2022-09-12T16:00:00.000Z",
