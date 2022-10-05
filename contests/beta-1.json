@@ -4,6 +4,11 @@
     "startTime": "2022-10-05T15:00:00.000Z",
     "endTime": "2022-10-05T16:20:00.000Z"
   },
+  "next": {
+    "name": "Beta Contest 2",
+    "startTime": "2022-11-02T15:00:00.000Z",
+    "endTime": "2022-11-02T16:20:00.000Z"
+  },
   "problems": [
     {
       "name": "Proper Acronym",
