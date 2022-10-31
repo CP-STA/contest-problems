@@ -50,4 +50,4 @@ for problem in info['problems']:
   if not doc.exists:
     raise ValueError(f"Cannot Find {problem['slug']} in firestore. Did you remember to push it with `push_contest.py`?")
 
-print("All checks passed.")
+print(f"All checks passed for {contestSlug}")

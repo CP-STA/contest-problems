@@ -8,30 +8,21 @@ from collections import deque
 
 def main():
     test_cases = []
-    for _ in range(50):
-        X = random.randint(1, 10 ** 6)
-        Y = random.randint(1, X)
-
-        IN = str(X) + ' ' + str(Y) + '\n'
-
-        mod = 10 ** 9 + 7
-
-        a = 1
-        for i in range(1, X + 1):
-            a *= i
-            a %= mod
-        b = Y
-        for i in range(1, X - Y + 1):
-            b *= i
-            b %= mod
-        x = pow(b, mod - 2, mod)
-        ans = a * x % mod
-
-        OUT = str(ans) + '\n'
+    for _ in range(30):
+        n = random.randint(1, 10 ** 5)
+        dates = []
+        for i in range(n):
+            year = str(random.randint(1413, 2022)).zfill(4)
+            month = str(random.randint(1, 12)).zfill(2)
+            date = str(random.randint(1, 28)).zfill(2)
+            dates.append(year + '/' + month + '/' + date)
+        IN = str(n) + '\n' + '\n'.join(dates)
+        dates.sort()
+        OUT = dates[0]
 
         test_cases.append({
-            "input": f"{IN}",
-            "output": f"{OUT}"
+        "input": f"{IN}",
+        "output": f"{OUT}"
         })
 
     print(json.dumps(test_cases, indent = 2))

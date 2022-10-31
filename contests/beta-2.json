@@ -1,0 +1,51 @@
+{
+  "info": {
+    "name": "Beta Contest 2",
+    "startTime": "2022-11-02T16:00:00.000Z",
+    "endTime": "2022-11-02T17:20:00.000Z"
+  },
+  "next": {
+    "name": "Beta Contest 3",
+    "startTime": "2022-11-16T16:00:00.000Z",
+    "endTime": "2022-11-16T17:20:00.000Z"
+  },
+  "problems": [
+    {
+      "name": "Even Sum",
+      "slug": "even-sum",
+      "difficulty": "☆"
+    },
+    {
+      "name": "Collect Coins",
+      "slug": "collect-coins",
+      "difficulty": "☆☆"
+    },
+    {
+      "name": "Earliest Date",
+      "slug": "earliest-date",
+      "difficulty": "☆☆"
+    },
+    {
+      "name": "Large Shift Caesar Cipher",
+      "slug": "large-shift-caesar-cipher",
+      "difficulty": "☆☆☆"
+    }, 
+    {
+      "name": "Prime Factors of Factorial",
+      "slug": "prime-factors-of-factorial",
+      "difficulty": "☆☆☆"
+    },
+    {
+      "name": "Book Piano Room",
+      "slug": "book-piano-room",
+      "difficulty": "☆☆☆☆"
+    },
+    {
+      "name": "Tricky Tribonacci",
+      "slug": "tricky-tribonacci",
+      "difficulty": "☆☆☆☆☆"
+    }
+  ]
+}
+
+
