@@ -1,0 +1,34 @@
+{
+  "name": "Book Piano Room",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "In the Music Centre, there is only one piano practice room. There are $n$ time slots in a single day available for the piano practice room.\n\nOne person is permitted to book several time slots in a day. The rule for booking is that, one firstly chooses consecutive time slots, and he/she can use practice rooms during those time slots where there's no preexisting booking.\n\nStudents and teaching staff love playing the piano, and today $m$ people are trying to book piano rooms. It is known that $i$-th person $(1 \\leq i \\leq m)$ would like to book a room between $l_{i}$-th time slot and $r_{i}$-th time slot inclusive. \n\nYour task is to output the number of time slots in which the practice room is vacant.\n\nNote that, $i$-th person can make bookings earlier than $(i + 1)$-th person does $(1 \\leq i \\leq n - 1)$.",
+  "constraints": "$1 \\leq n, m \\leq 10^{5}$, $1 \\leq l \\leq r \\leq n$.",
+  "subtasks": [
+    {
+      "score": 0.2,
+      "constraints": "$1 \\leq n, m \\lt 100$."
+    },
+    {
+      "score": 0.8,
+      "constraints": "$100 \\leq n, m \\leq 10^{5}$."
+    }
+  ],
+  "input": "The first line of input contains two integers, $n$ and $m$.\nFollowing are $m$ lines $i$-th of which contains two integers $l_{i}$ and $r_{i}$.",
+  "output": "Output the answer.",
+  "examples": [
+    {
+      "input": "5 2\n1 2\n4 5",
+      "output": "1",
+      "explanation": "Time slots $1$ and $2$ are booked by the first person. Time slots $4$ and $5$ are booked by the second person. The only remaining vacant time slot is the time slot $3$, so the answer is $1$.\n"
+    },
+    {
+      "input": "6 3\n1 4\n2 5\n6 6",
+      "output": "0",
+      "explanation": "Time slots $1$, $2$, $3$, and $4$ are booked by the first person. Time slot $5$ is booked by the second person. Time slot $6$ is booked by the third person. Because there's no single time slot available for pianists, the answer is $0$."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Collect Coins",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606",
+  "tags": [],
+  "statement": "You're playing a game that is composed of $n$ rounds. Before starting a game, you have $0$ coin. In $i$-th round, you earn $A[i]$ coins. However, the maximum number of coins you can have is $10$ and minimum is $0$ ($i.e.$ you will not have more than $10$ coins, and you will not have less than $0$ coin). What is the resulting number of coins you have after finishing all $n$ rounds?\n\nNote that, $A[i]$ can be negative: in this case, you lose $A[i]$ coins rather than earning them.",
+  "constraints": "$0 \\leq n \\lt 10^{5}$, $-5 \\leq A[i] \\leq 5$.",
+  "subtasks": [],
+  "input": "The first line of input contains one integer, $n$.\nThe second line of input contains $n$ integers, $A[i]$.",
+  "output": "Output the answer.",
+  "examples": [
+    {
+      "input": "4\n3 5 5 -3",
+      "output": "7",
+      "explanation": "The numbers of coins you have after finishing each round are as follows: $3$, $8$, $10$, and $7$, hence the answer is $7$.\n"
+    },
+    {
+      "input": "3\n2 -4 -4",
+      "output": "0",
+      "explanation": "The numbers of coins you have after finishing each round are as follows: $2$, $0$, and $0$ hence the answer is $0$."
+    }
+  ]
+}

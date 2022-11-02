@@ -1,5 +1,47 @@
 [
   {
+    "name": "Even Sum",
+    "slug": "even-sum",
+    "date": "2022-11-02T16:00:00.000Z",
+    "difficulty": "☆"
+  },
+  {
+    "name": "Collect Coins",
+    "slug": "collect-coins",
+    "date": "2022-11-02T16:00:00.000Z",
+    "difficulty": "☆☆"
+  },
+  {
+    "name": "Earliest Date",
+    "slug": "earliest-date",
+    "date": "2022-11-02T16:00:00.000Z",
+    "difficulty": "☆☆"
+  },
+  {
+    "name": "Large Shift Caesar Cipher",
+    "slug": "large-shift-caesar-cipher",
+    "date": "2022-11-02T16:00:00.000Z",
+    "difficulty": "☆☆☆"
+  }, 
+  {
+    "name": "Prime Factors of Factorial",
+    "slug": "prime-factors-of-factorial",
+    "date": "2022-11-02T16:00:00.000Z",
+    "difficulty": "☆☆☆"
+  },
+  {
+    "name": "Book Piano Room",
+    "slug": "book-piano-room",
+    "date": "2022-11-02T16:00:00.000Z",
+    "difficulty": "☆☆☆☆"
+  },
+  {
+    "name": "Tricky Tribonacci",
+    "slug": "tricky-tribonacci",
+    "date": "2022-11-02T16:00:00.000Z",
+    "difficulty": "☆☆☆☆☆"
+  },
+  {
     "name": "Proper Acronym",
     "slug": "proper-acronym",
     "date": "2022-10-05T15:00:00.000Z",

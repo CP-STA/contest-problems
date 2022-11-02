@@ -1,0 +1,25 @@
+{
+  "name": "Earliest Date",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606",
+  "tags": [],
+  "statement": "In $n$ lines, you are given dates in yyyy/mm/dd format. Output the earliest date amongst those.",
+  "constraints": "$1 \\leq n \\leq 10^{5}$.",
+  "subtasks": [],
+  "input": "The first line of input contains one integer, $n$.\nFollowing are $n$ lines each of which contains a date in yyyy/mm/dd format.",
+  "output": "Output the answer.",
+  "examples": [
+    {
+      "input": "3\n2010/05/11\n1979/05/04\n2019/07/04",
+      "output": "1979/05/04",
+      "explanation": "The earliest date amongst 3 dates when David Cameron (2010/05/11), Margaret Thatcher (1979/05/04), and Boris Johnson (2019/07/04) became a Prime Minister in the British Parliament, is clearly $1979/05/04$ of Margaret Thatcher.\n"
+    },
+    {
+      "input": "2\n1413/08/28\n1413/08/28",
+      "output": "1413/08/28",
+      "explanation": "The testcase can contain duplicate dates, in this case, date of establishment of the University of St Andrews. In this case, output any.\n"
+    }
+  ]
+}
