@@ -1,0 +1,44 @@
+{
+    "info": {
+        "name": "Beta Contest 3",
+        "startTime": "2022-11-16T16:00:00.000Z",
+        "endTime": "2022-11-16T17:20:00.000Z"
+    },
+    "problems": [
+        {
+            "name": "Five Dice",
+            "slug": "five-dice",
+            "difficulty": "☆"
+        }, 
+        {
+            "name": "Uppercase Lower and Lowercase Upper",
+            "slug": "uppercase-lower-and-lowercase-upper",
+            "difficulty": "☆☆"
+        },
+        {
+            "name": "Maximise the Rectangle",
+            "slug": "maximise-the-rectangle",
+            "difficulty": "☆☆"
+        },
+        {
+            "name": "Array Convergence",
+            "slug": "array-convergence",
+            "difficulty": "☆☆☆"
+        },
+        {
+            "name": "Friend and Friend of Friend",
+            "slug": "friend-and-friend-of-friend",
+            "difficulty": "☆☆☆"
+        },
+        {
+            "name": "Produce ID",
+            "slug": "produce-id",
+            "difficulty": "☆☆☆"
+        },
+        {
+            "name": "Within Half an Hour",
+            "slug": "within-half-an-hour",
+            "difficulty": "☆☆☆☆"
+        }
+    ]
+}
