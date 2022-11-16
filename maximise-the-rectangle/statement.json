@@ -1,0 +1,25 @@
+{
+  "name": "Maximise the Rectangle",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606",
+  "tags": [
+    "math"
+  ],
+  "statement": "Given an integer $n$, you are asked to maximise the area of rectangle whose lengths of all $4$ edges add up to $n$. When printing the number, output $336$ multiplied by the maximised area and this should be a whole number.",
+  "constraints": "$0 \\leq n \\lt 500$.",
+  "subtasks": [],
+  "input": "The input contains one line, which is $n$.",
+  "output": "Output $336$ multiplied by the maximum area of rectangle that consists of $4$ edges whose lengths add up to $n$. Output should be an integer.",
+  "examples": [
+    {
+      "input": "7",
+      "output": "1029"
+    },
+    {
+      "input": "0",
+      "output": "0"
+    }
+  ]
+}

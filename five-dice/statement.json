@@ -1,0 +1,24 @@
+{
+  "name": "Five Dice",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606",
+  "tags": [],
+  "statement": "You have $5$ distinct dice and throw them all simultaneously. How many patterns would there be where the sum of eyes is equal to $n$.\n\nNote that, each dice has $6$ numbers on it: $(1, 2, 3, 4, 5, 6)$.",
+  "constraints": "$5 \\leq n \\leq 30$.",
+  "subtasks": [],
+  "input": "The input contains one integer, $n$.",
+  "output": "Output the answer.",
+  "examples": [
+    {
+      "input": "5",
+      "output": "1",
+      "explanation": "The only pair that satisfies the condition is $(1, 1, 1, 1, 1)$. Hence the answer is $1$.\n"
+    },
+    {
+      "input": "20",
+      "output": "651"
+    }
+  ]
+}

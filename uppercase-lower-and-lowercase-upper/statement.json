@@ -1,0 +1,23 @@
+{
+  "name": "Uppercase Lower and Lowercase Upper",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606",
+  "tags": [],
+  "statement": "Given an integer $n$ and string $s$ of length $n$, Kay asks you to convert $s$ into $t$ in such a way that $t[i]$ is an uppercase letter of $s[i]$ in case $s[i]$ is a lowercase letter, and $t[i]$ is a lowercase letter of $s[i]$ in case $s[i]$ is an uppercase letter $(1 \\leq i \\leq n)$. It is guaranteed that any $s[i]$ is either a lowercase or uppercase Latin alphabet $(1 \\leq i \\leq n)$.",
+  "constraints": "$1 \\leq n \\leq 10^{5}$.",
+  "subtasks": [],
+  "input": "The first line of input contains an integer $n$, the length of $s$.\nThe second line contains a string $s$.",
+  "output": "Output the resulting string.",
+  "examples": [
+    {
+      "input": "20\nUniversityOfStAndrews",
+      "output": "uNIVERSITYoFsTaNDREWS"
+    },
+    {
+      "input": "11\ngoodmorning",
+      "output": "GOODMORNING"
+    }
+  ]
+}

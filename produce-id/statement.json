@@ -1,0 +1,32 @@
+{
+  "name": "Produce ID",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "You are organising a programming competition platform. For each submission, you would like to assign a unique ID that consits of $n$ letters. Each letter can be any small Latin letter, large Latin letter, or decimal number ($i.e.$, a-z, A-Z, $0$-$9$). How many possible IDs can you produce? Note that, because the answer can become astronomically large, your task is to output the answer $mod$ $10^{9} + 7$. In other word, output the remainder of the answer divided by $10^{9} + 7$.",
+  "constraints": "$1 \\leq n \\leq 10^{12}$.",
+  "subtasks": [
+    {
+      "score": 0.2,
+      "constraints": "$1 \\leq n \\lt 10^{5}$."
+    },
+    {
+      "score": 0.8,
+      "constraints": "$10^{5} \\leq n \\leq 10^{12}$."
+    }
+  ],
+  "input": "The input contains one integer, $n$.",
+  "output": "Output the answer.",
+  "examples": [
+    {
+      "input": "5",
+      "output": "916132832"
+    },
+    {
+      "input": "82341",
+      "output": "934669753"
+    }
+  ]
+}

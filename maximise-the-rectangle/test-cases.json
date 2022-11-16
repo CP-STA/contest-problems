@@ -1,0 +1,86 @@
+[
+  {
+    "input": "0\n",
+    "output": "0\n"
+  },
+  {
+    "input": "33\n",
+    "output": "22869\n"
+  },
+  {
+    "input": "165\n",
+    "output": "571725\n"
+  },
+  {
+    "input": "140\n",
+    "output": "411600\n"
+  },
+  {
+    "input": "117\n",
+    "output": "287469\n"
+  },
+  {
+    "input": "376\n",
+    "output": "2968896\n"
+  },
+  {
+    "input": "61\n",
+    "output": "78141\n"
+  },
+  {
+    "input": "438\n",
+    "output": "4028724\n"
+  },
+  {
+    "input": "117\n",
+    "output": "287469\n"
+  },
+  {
+    "input": "482\n",
+    "output": "4878804\n"
+  },
+  {
+    "input": "368\n",
+    "output": "2843904\n"
+  },
+  {
+    "input": "319\n",
+    "output": "2136981\n"
+  },
+  {
+    "input": "212\n",
+    "output": "943824\n"
+  },
+  {
+    "input": "145\n",
+    "output": "441525\n"
+  },
+  {
+    "input": "468\n",
+    "output": "4599504\n"
+  },
+  {
+    "input": "381\n",
+    "output": "3048381\n"
+  },
+  {
+    "input": "145\n",
+    "output": "441525\n"
+  },
+  {
+    "input": "294\n",
+    "output": "1815156\n"
+  },
+  {
+    "input": "463\n",
+    "output": "4501749\n"
+  },
+  {
+    "input": "175\n",
+    "output": "643125\n"
+  },
+  {
+    "input": "147\n",
+    "output": "453789\n"
+  }
+]

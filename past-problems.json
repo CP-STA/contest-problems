@@ -1,5 +1,47 @@
 [
   {
+    "name": "Five Dice",
+    "slug": "five-dice",
+    "date": "2022-11-16T16:00:00.000Z",
+    "difficulty": "☆"
+  }, 
+  {
+    "name": "Uppercase Lower and Lowercase Upper",
+    "slug": "uppercase-lower-and-lowercase-upper",
+    "date": "2022-11-16T16:00:00.000Z",
+    "difficulty": "☆☆"
+  },
+  {
+    "name": "Maximise the Rectangle",
+    "slug": "maximise-the-rectangle",
+    "date": "2022-11-16T16:00:00.000Z",
+    "difficulty": "☆☆"
+  },
+  {
+    "name": "Array Convergence",
+    "slug": "array-convergence",
+    "date": "2022-11-16T16:00:00.000Z",
+    "difficulty": "☆☆☆"
+  },
+  {
+    "name": "Friend and Friend of Friend",
+    "slug": "friend-and-friend-of-friend",
+    "date": "2022-11-16T16:00:00.000Z",
+    "difficulty": "☆☆☆"
+  },
+  {
+    "name": "Produce ID",
+    "slug": "produce-id",
+    "date": "2022-11-16T16:00:00.000Z",
+    "difficulty": "☆☆☆"
+  },
+  {
+    "name": "Within Half an Hour",
+    "slug": "within-half-an-hour",
+    "date": "2022-11-16T16:00:00.000Z",
+    "difficulty": "☆☆☆☆"
+  },
+  {
     "name": "Even Sum",
     "slug": "even-sum",
     "date": "2022-11-02T16:00:00.000Z",

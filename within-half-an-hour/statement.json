@@ -1,0 +1,25 @@
+{
+  "name": "Within Half an Hour",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "Given an underground network map consisting of $n$ stations named from $1$ to $n$, output the number of stations within $30$ minutes of walking distance from station $s$ if you choose the path optimally. \n\nIn $m$ lines, you are given $a_i$, $b_i$, and $c_i$ $(1 \\leq i \\leq m)$, $(1 \\leq a_i, b_i \\leq n)$, $(1 \\leq c_i \\leq 100)$, indicating that station $a_i$ is bilaterally connected to station $b_i$ and it takes $c_i$ minute(s) to walk from one to another.\n\nNote that, station $s$ should be counted since this can be reached in $0$ minute.",
+  "constraints": "$1 \\leq n, m \\leq 1000$, $1 \\leq a_i, b_i, s \\leq n$, $1 \\leq c_i \\leq 100$.",
+  "subtasks": [],
+  "input": "The first line of input contains three integers, $n$, $m$, and $s$.\nFollowing are $m$ lines each of which contains three integers, $a_i$, $b_i$, and $c_i$.",
+  "output": "Output the answer.",
+  "examples": [
+    {
+      "input": "4 3 1\n1 2 10\n1 3 5\n1 4 30",
+      "output": "4",
+      "explanation": "Station $1$, $2$, $3$, and $4$ can be accessed in $0$, $10$, $5$, and $30$ minutes respectively. All stations can be reached within $30$ minutes hence the answer is $4$.\n"
+    },
+    {
+      "input": "7 5 2\n2 1 19\n1 3 13\n1 4 9\n5 4 3\n6 7 10",
+      "output": "3",
+      "explanation": "Station $1$, $2$, $3$, $4$, and $5$ can be accessed in $19$, $0$, $32$, $28$, and $31$ minutes respectively. Amongst those five stations, station $1$, $2$, and $4$ satisfy the condition, hence the answer is $3$. Note that, you cannot reach station $6$ and $7$ because there's no service thus you don't count them."
+    }
+  ]
+}

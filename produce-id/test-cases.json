@@ -1,0 +1,302 @@
+[
+  {
+    "input": "90565\n",
+    "output": "758563237\n",
+    "subtask": 1
+  },
+  {
+    "input": "49937\n",
+    "output": "556835054\n",
+    "subtask": 1
+  },
+  {
+    "input": "98132\n",
+    "output": "911531751\n",
+    "subtask": 1
+  },
+  {
+    "input": "68664\n",
+    "output": "31733751\n",
+    "subtask": 1
+  },
+  {
+    "input": "44251\n",
+    "output": "973573023\n",
+    "subtask": 1
+  },
+  {
+    "input": "16125\n",
+    "output": "928356253\n",
+    "subtask": 1
+  },
+  {
+    "input": "958\n",
+    "output": "404213101\n",
+    "subtask": 1
+  },
+  {
+    "input": "86263\n",
+    "output": "70063860\n",
+    "subtask": 1
+  },
+  {
+    "input": "97141\n",
+    "output": "931975616\n",
+    "subtask": 1
+  },
+  {
+    "input": "77489\n",
+    "output": "387591503\n",
+    "subtask": 1
+  },
+  {
+    "input": "55965\n",
+    "output": "424038334\n",
+    "subtask": 1
+  },
+  {
+    "input": "77845\n",
+    "output": "464787162\n",
+    "subtask": 1
+  },
+  {
+    "input": "41277\n",
+    "output": "647670080\n",
+    "subtask": 1
+  },
+  {
+    "input": "88261\n",
+    "output": "208119816\n",
+    "subtask": 1
+  },
+  {
+    "input": "7919\n",
+    "output": "486082832\n",
+    "subtask": 1
+  },
+  {
+    "input": "92451\n",
+    "output": "374907806\n",
+    "subtask": 1
+  },
+  {
+    "input": "98328\n",
+    "output": "383685474\n",
+    "subtask": 1
+  },
+  {
+    "input": "47401\n",
+    "output": "268368178\n",
+    "subtask": 1
+  },
+  {
+    "input": "13203\n",
+    "output": "259243040\n",
+    "subtask": 1
+  },
+  {
+    "input": "68806\n",
+    "output": "76446173\n",
+    "subtask": 1
+  },
+  {
+    "input": "5130\n",
+    "output": "255044766\n",
+    "subtask": 1
+  },
+  {
+    "input": "56516\n",
+    "output": "108957081\n",
+    "subtask": 1
+  },
+  {
+    "input": "44900\n",
+    "output": "325011256\n",
+    "subtask": 1
+  },
+  {
+    "input": "75015\n",
+    "output": "622704516\n",
+    "subtask": 1
+  },
+  {
+    "input": "26554\n",
+    "output": "512875401\n",
+    "subtask": 1
+  },
+  {
+    "input": "78730\n",
+    "output": "415618029\n",
+    "subtask": 1
+  },
+  {
+    "input": "99765\n",
+    "output": "175413115\n",
+    "subtask": 1
+  },
+  {
+    "input": "48558\n",
+    "output": "179728124\n",
+    "subtask": 1
+  },
+  {
+    "input": "29946\n",
+    "output": "95014561\n",
+    "subtask": 1
+  },
+  {
+    "input": "39616\n",
+    "output": "509822966\n",
+    "subtask": 1
+  },
+  {
+    "input": "492004888919\n",
+    "output": "992700105\n",
+    "subtask": 2
+  },
+  {
+    "input": "548273979203\n",
+    "output": "887828217\n",
+    "subtask": 2
+  },
+  {
+    "input": "112835148572\n",
+    "output": "740186791\n",
+    "subtask": 2
+  },
+  {
+    "input": "958801379874\n",
+    "output": "543025126\n",
+    "subtask": 2
+  },
+  {
+    "input": "992755963842\n",
+    "output": "37550906\n",
+    "subtask": 2
+  },
+  {
+    "input": "546504599683\n",
+    "output": "482400573\n",
+    "subtask": 2
+  },
+  {
+    "input": "534536082239\n",
+    "output": "985302169\n",
+    "subtask": 2
+  },
+  {
+    "input": "841803432536\n",
+    "output": "288631472\n",
+    "subtask": 2
+  },
+  {
+    "input": "300956668053\n",
+    "output": "950707452\n",
+    "subtask": 2
+  },
+  {
+    "input": "570278580707\n",
+    "output": "978232048\n",
+    "subtask": 2
+  },
+  {
+    "input": "507192383882\n",
+    "output": "161858901\n",
+    "subtask": 2
+  },
+  {
+    "input": "617700216260\n",
+    "output": "574063822\n",
+    "subtask": 2
+  },
+  {
+    "input": "392457886958\n",
+    "output": "96585974\n",
+    "subtask": 2
+  },
+  {
+    "input": "322833146845\n",
+    "output": "460207482\n",
+    "subtask": 2
+  },
+  {
+    "input": "17107774259\n",
+    "output": "613658440\n",
+    "subtask": 2
+  },
+  {
+    "input": "897240418869\n",
+    "output": "776112964\n",
+    "subtask": 2
+  },
+  {
+    "input": "944331386175\n",
+    "output": "566742839\n",
+    "subtask": 2
+  },
+  {
+    "input": "720942932798\n",
+    "output": "219875819\n",
+    "subtask": 2
+  },
+  {
+    "input": "113311683887\n",
+    "output": "681378956\n",
+    "subtask": 2
+  },
+  {
+    "input": "967426585479\n",
+    "output": "290639563\n",
+    "subtask": 2
+  },
+  {
+    "input": "498417081522\n",
+    "output": "126385172\n",
+    "subtask": 2
+  },
+  {
+    "input": "715883179575\n",
+    "output": "850735242\n",
+    "subtask": 2
+  },
+  {
+    "input": "129573856893\n",
+    "output": "76120881\n",
+    "subtask": 2
+  },
+  {
+    "input": "743060993849\n",
+    "output": "885480073\n",
+    "subtask": 2
+  },
+  {
+    "input": "479039269767\n",
+    "output": "956149430\n",
+    "subtask": 2
+  },
+  {
+    "input": "604315538687\n",
+    "output": "904371488\n",
+    "subtask": 2
+  },
+  {
+    "input": "104758669748\n",
+    "output": "222507737\n",
+    "subtask": 2
+  },
+  {
+    "input": "812313178526\n",
+    "output": "627772063\n",
+    "subtask": 2
+  },
+  {
+    "input": "367311868689\n",
+    "output": "943891320\n",
+    "subtask": 2
+  },
+  {
+    "input": "579969316422\n",
+    "output": "756145325\n",
+    "subtask": 2
+  }
+]
