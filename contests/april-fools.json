@@ -1,0 +1,60 @@
+{
+    "info": {
+        "name": "April Fools' Contest",
+        "startTime": "2023-04-01T15:00:00.000Z",
+        "endTime": "2023-04-01T18:00:00.000Z",
+        "additionalText": "This is our major competition for this academic year, sponsored by [St Andrews Mathematics Society](https://sums-sta.github.io).\n\n There will be prizes of £50, £20, £10 for the top three contestants. This contest is open to everyone to attend, but the prizes are only eligible for students in a Scottish University. You will need a github account to participate. If you are a student in a Scottish University, please [register](https://forms.office.com/e/6pxQRsZ4DX) before the start of the contest in order to be qualified for the prize, otherwise there is no need to fill in the form. \n\n Please [follow our discord](https://discord.gg/8wTzq7Megd) for updates on the contest, and ask question.\n"
+    },
+    "problems": [
+        {
+            "name": "Mozart Index",
+            "slug": "mozart-index",
+            "difficulty": "☆"
+        },
+        {
+            "name": "Traffic Light Prediction",
+            "slug": "traffic-light-prediction",
+            "difficulty": "☆"
+        },
+        {
+            "name": "Greatest Common Multiple",
+            "slug": "greatest-common-multiple",
+            "difficulty": "☆☆"
+        },
+        {
+            "name": "Local Anaesthetics",
+            "slug": "local-anaesthetics",
+            "difficulty": "☆☆"
+        },
+        {
+            "name": "Prime Walk",
+            "slug": "prime-walk",
+            "difficulty": "☆☆☆"
+        },
+        {
+            "name": "EZ Bar",
+            "slug": "ez-bar",
+            "difficulty": "☆☆☆"
+        },
+        {
+            "name": "Kay and Deyao in Disneyland",
+            "slug": "kay-and-deyao-in-disneyland",
+            "difficulty": "☆☆☆☆"
+        },
+        {
+            "name": "Lost in Rondon Underground",
+            "slug": "rondon-underground",
+            "difficulty": "☆☆☆☆"
+        },
+        {
+            "name": "Trustworthy Confidence Interval",
+            "slug": "trustworthy-confidence-interval",
+            "difficulty": "☆☆☆☆"
+        },
+        {
+            "name": "Sum of Dice",
+            "slug": "sum-of-dice",
+            "difficulty": "☆☆☆☆☆"
+        }
+    ]
+}
