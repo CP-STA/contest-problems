@@ -1,0 +1,322 @@
+[
+  {
+    "input": "1\n",
+    "output": "10\n"
+  },
+  {
+    "input": "561\n",
+    "output": "32\n"
+  },
+  {
+    "input": "488\n",
+    "output": "29\n"
+  },
+  {
+    "input": "323\n",
+    "output": "22\n"
+  },
+  {
+    "input": "554\n",
+    "output": "32\n"
+  },
+  {
+    "input": "570\n",
+    "output": "32\n"
+  },
+  {
+    "input": "276\n",
+    "output": "21\n"
+  },
+  {
+    "input": "86\n",
+    "output": "13\n"
+  },
+  {
+    "input": "115\n",
+    "output": "14\n"
+  },
+  {
+    "input": "107\n",
+    "output": "14\n"
+  },
+  {
+    "input": "182\n",
+    "output": "17\n"
+  },
+  {
+    "input": "367\n",
+    "output": "24\n"
+  },
+  {
+    "input": "611\n",
+    "output": "34\n"
+  },
+  {
+    "input": "29\n",
+    "output": "11\n"
+  },
+  {
+    "input": "603\n",
+    "output": "34\n"
+  },
+  {
+    "input": "117\n",
+    "output": "14\n"
+  },
+  {
+    "input": "154\n",
+    "output": "16\n"
+  },
+  {
+    "input": "525\n",
+    "output": "31\n"
+  },
+  {
+    "input": "592\n",
+    "output": "33\n"
+  },
+  {
+    "input": "226\n",
+    "output": "19\n"
+  },
+  {
+    "input": "29\n",
+    "output": "11\n"
+  },
+  {
+    "input": "624\n",
+    "output": "34\n"
+  },
+  {
+    "input": "609\n",
+    "output": "34\n"
+  },
+  {
+    "input": "547\n",
+    "output": "31\n"
+  },
+  {
+    "input": "80\n",
+    "output": "13\n"
+  },
+  {
+    "input": "479\n",
+    "output": "29\n"
+  },
+  {
+    "input": "447\n",
+    "output": "27\n"
+  },
+  {
+    "input": "537\n",
+    "output": "31\n"
+  },
+  {
+    "input": "431\n",
+    "output": "27\n"
+  },
+  {
+    "input": "294\n",
+    "output": "21\n"
+  },
+  {
+    "input": "222\n",
+    "output": "18\n"
+  },
+  {
+    "input": "252\n",
+    "output": "20\n"
+  },
+  {
+    "input": "561\n",
+    "output": "32\n"
+  },
+  {
+    "input": "383\n",
+    "output": "25\n"
+  },
+  {
+    "input": "216\n",
+    "output": "18\n"
+  },
+  {
+    "input": "592\n",
+    "output": "33\n"
+  },
+  {
+    "input": "118\n",
+    "output": "14\n"
+  },
+  {
+    "input": "282\n",
+    "output": "21\n"
+  },
+  {
+    "input": "278\n",
+    "output": "21\n"
+  },
+  {
+    "input": "439\n",
+    "output": "27\n"
+  },
+  {
+    "input": "99\n",
+    "output": "13\n"
+  },
+  {
+    "input": "607\n",
+    "output": "34\n"
+  },
+  {
+    "input": "38\n",
+    "output": "11\n"
+  },
+  {
+    "input": "285\n",
+    "output": "21\n"
+  },
+  {
+    "input": "476\n",
+    "output": "29\n"
+  },
+  {
+    "input": "453\n",
+    "output": "28\n"
+  },
+  {
+    "input": "234\n",
+    "output": "19\n"
+  },
+  {
+    "input": "2\n",
+    "output": "10\n"
+  },
+  {
+    "input": "453\n",
+    "output": "28\n"
+  },
+  {
+    "input": "344\n",
+    "output": "23\n"
+  },
+  {
+    "input": "378\n",
+    "output": "25\n"
+  },
+  {
+    "input": "99\n",
+    "output": "13\n"
+  },
+  {
+    "input": "77\n",
+    "output": "13\n"
+  },
+  {
+    "input": "312\n",
+    "output": "22\n"
+  },
+  {
+    "input": "436\n",
+    "output": "27\n"
+  },
+  {
+    "input": "358\n",
+    "output": "24\n"
+  },
+  {
+    "input": "239\n",
+    "output": "19\n"
+  },
+  {
+    "input": "624\n",
+    "output": "34\n"
+  },
+  {
+    "input": "392\n",
+    "output": "25\n"
+  },
+  {
+    "input": "148\n",
+    "output": "15\n"
+  },
+  {
+    "input": "406\n",
+    "output": "26\n"
+  },
+  {
+    "input": "596\n",
+    "output": "33\n"
+  },
+  {
+    "input": "50\n",
+    "output": "12\n"
+  },
+  {
+    "input": "85\n",
+    "output": "13\n"
+  },
+  {
+    "input": "265\n",
+    "output": "20\n"
+  },
+  {
+    "input": "419\n",
+    "output": "26\n"
+  },
+  {
+    "input": "30\n",
+    "output": "11\n"
+  },
+  {
+    "input": "571\n",
+    "output": "32\n"
+  },
+  {
+    "input": "87\n",
+    "output": "13\n"
+  },
+  {
+    "input": "36\n",
+    "output": "11\n"
+  },
+  {
+    "input": "596\n",
+    "output": "33\n"
+  },
+  {
+    "input": "303\n",
+    "output": "22\n"
+  },
+  {
+    "input": "184\n",
+    "output": "17\n"
+  },
+  {
+    "input": "57\n",
+    "output": "12\n"
+  },
+  {
+    "input": "191\n",
+    "output": "17\n"
+  },
+  {
+    "input": "25\n",
+    "output": "11\n"
+  },
+  {
+    "input": "330\n",
+    "output": "23\n"
+  },
+  {
+    "input": "253\n",
+    "output": "20\n"
+  },
+  {
+    "input": "530\n",
+    "output": "31\n"
+  },
+  {
+    "input": "485\n",
+    "output": "29\n"
+  }
+]

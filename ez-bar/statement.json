@@ -1,0 +1,34 @@
+{
+  "name": "EZ Bar",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "In order to strengthen his biceps brachii muscles, Kay is coming to the gym today. Kay now wants to use an EZ bar, a wavy bar to whose right and left ends he can add some weights. He holds this bar with both his arms, and flexes arms to build his muscles.\n\nToday he wants to make the total weight $2T$ kg. Luckily, he has found one weight of $T$ kg for the left end immediately. However, it seems that other $T$ kg weights are all unavailable, hence he needs to take several other available weights so that the total weight for the right end becomes $T$ kg too. In choosing weights, he wants to minimise the number of weights he has to take because he is too lazy to walk back and forth. Being horrible at maths, he asks his smart friend Alden to calculate the minimal number of weights he needs to take to make the total weight for the right end exactly $T$ kg. Report his answer.\n\nAvailable weights are given as $W$ which is a single sequence of length $N$; $W_1$, ..., $W_N$.\n\nAlso, if it's impossible to make $T$ kg out of $W$, output $-1$ instead.",
+  "constraints": "$1 \\leq N \\leq 100$, $1 \\leq W_i \\leq 100$, $0 \\leq T \\leq 10^{4}$.\nThere's no $i$ such that $W_i = T$ $(1 \\leq i \\leq N)$.",
+  "subtasks": [
+    {
+      "score": 0.2,
+      "constraints": "$1 \\leq N \\leq 10$."
+    },
+    {
+      "score": 0.8,
+      "constraints": "$1 \\leq N \\leq 100$."
+    }
+  ],
+  "input": "The first line of input contains two integers, $N$, $T$.\nThe second line of input contains $N$ integers, $W_i$ $(1 \\leq i \\leq N)$.",
+  "output": "Output an answer in a single line.",
+  "examples": [
+    {
+      "input": "5 16\n2 4 4 8 10",
+      "output": "3",
+      "explanation": "One example of the solution is to pick up $W_2$, $W_3$, and $W_4$. Another example is to pick up $W_1$, $W_2$, and $W_5$. However, because there's no way to make $16$ by picking up only $2$ or $1$ elements, the minimal number of weights Kay needs to take is $3$.\n"
+    },
+    {
+      "input": "4 20\n1 10 18 11",
+      "output": "-1",
+      "explanation": "Even Alden cannot find a set of weights to make $T$ kg out of this sequence. Thus, the answer is $-1$."
+    }
+  ]
+}

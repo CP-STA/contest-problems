@@ -1,0 +1,25 @@
+{
+  "name": "Traffic Light Prediction",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606",
+  "tags": [],
+  "statement": "The colour of traffic light in the town of Leveen changes periodically in a following fashion: green \u2192 yellow \u2192 red \u2192 yellow \u2192 green \u2192 yellow \u2192 red \u2192 yellow \u2192 green \u2192 .... The colour turns green at 00:00:00 of each day, and we know that green light lasts for $g$ seconds, yellow light lasts for $y$ seconds, and red light lasts for $r$ seconds. \n\nNow, $t$ seconds have passed since 00:00:00. Your task is to tell which colour is shown in the traffic light at the time of $t$.\n\nIf $t$ is exactly the time when the light turns one from another, output the colour AFTER the change.\n\nNote that, no matter what colour is shown at 23:59:59 in the previous day, the colour turns green at 00:00:00.",
+  "constraints": "$1 \\leq g, y, r \\leq 100$, $0 \\leq t \\leq 86400$.",
+  "subtasks": [],
+  "input": "The first line of input contains three integers, $g$, $y$, $r$.\nThe second line of input contains one integer, $t$.",
+  "output": "Answer the colour from three choices: \"green\", \"yellow\", \"red\".",
+  "examples": [
+    {
+      "input": "10 2 10\n70",
+      "output": "yellow",
+      "explanation": "- 00:00:00 \u2192 the light turns green.\n- 00:00:10 \u2192 the light turns yellow.\n- 00:00:12 \u2192 the light turns red.\n- 00:00:22 \u2192 the light turns yellow.\n- 00:00:24 \u2192 the light turns green.\n- 00:00:34 \u2192 the light turns yellow. \n- 00:00:36 \u2192 the light turns red.\n- 00:00:46 \u2192 the light turns yellow.\n- 00:00:48 \u2192 the light turns green.\n- 00:00:58 \u2192 the light turns yellow.\n- 00:01:00 \u2192 the light turns red.\n- 00:01:10 \u2192 the light turns yellow.\nAt the time of $t = 70$, the light turns yellow from red. Hence the answer is yellow.\n"
+    },
+    {
+      "input": "48 12 41\n0",
+      "output": "green",
+      "explanation": "Regardless of the colour shown in the last minute of previous day, at $t = 0$ the colour turns green in the very beginning of the day."
+    }
+  ]
+}

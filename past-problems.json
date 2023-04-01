@@ -1,5 +1,65 @@
 [
   {
+      "name": "Mozart Index",
+      "slug": "mozart-index",
+      "date": "2023-04-01T16:00:00.000Z",
+      "difficulty": "☆"
+  },
+  {
+      "name": "Traffic Light Prediction",
+      "slug": "traffic-light-prediction",
+      "date": "2023-04-01T16:00:00.000Z",
+      "difficulty": "☆"
+  },
+  {
+      "name": "Greatest Common Multiple",
+      "slug": "greatest-common-multiple",
+      "date": "2023-04-01T16:00:00.000Z",
+      "difficulty": "☆☆"
+  },
+  {
+      "name": "Local Anaesthetics",
+      "slug": "local-anaesthetics",
+      "date": "2023-04-01T16:00:00.000Z",
+      "difficulty": "☆☆"
+  },
+  {
+      "name": "Prime Walk",
+      "slug": "prime-walk",
+      "date": "2023-04-01T16:00:00.000Z",
+      "difficulty": "☆☆☆"
+  },
+  {
+      "name": "EZ Bar",
+      "slug": "ez-bar",
+      "date": "2023-04-01T16:00:00.000Z",
+      "difficulty": "☆☆☆"
+  },
+  {
+      "name": "Kay and Deyao in Disneyland",
+      "slug": "kay-and-deyao-in-disneyland",
+      "date": "2023-04-01T16:00:00.000Z",
+      "difficulty": "☆☆☆☆"
+  },
+  {
+      "name": "Rondon Underground",
+      "slug": "rondon-underground",
+      "date": "2023-04-01T16:00:00.000Z",
+      "difficulty": "☆☆☆☆"
+  },
+  {
+      "name": "Trustworthy Confidence Interval",
+      "slug": "trustworthy-confidence-interval",
+      "date": "2023-04-01T16:00:00.000Z",
+      "difficulty": "☆☆☆☆"
+  },
+  {
+      "name": "Sum of Dice",
+      "slug": "sum-of-dice",
+      "date": "2023-03-18T16:00:00.000Z",
+      "difficulty": "☆☆☆☆☆"
+  },
+  {
     "name": "Five Dice",
     "slug": "five-dice",
     "date": "2022-11-16T16:00:00.000Z",

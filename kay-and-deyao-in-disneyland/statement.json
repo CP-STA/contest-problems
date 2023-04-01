@@ -1,0 +1,33 @@
+{
+  "name": "Kay and Deyao in Disneyland",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "Anurag, who is our Sponsorship Coordinator, is today a Disneyland Trip Coordinator. He's taking CPSTA's committee members to Disneyland Paris. However, a couple of days before the departure, Kay and Deyao had a serious quarrel over the unsolved conundrum disputed across the UK; \"When putting the clotted cream and jam on the scone, which should be spread first?\". The argument did not reach a concordance until the trip to Paris, and in order to sidestep further development of their adverse relationship, Anurag now needs to plan the Disneyland trip accordingly.\n\nDisneyland Paris consists of $N$ attractions with names $1$, ..., $N$. Also, there're $(N - 1)$ undirected paths that connect two attractions; attraction $A_i$ and $B_i$ are bilaterally connected, and the distance between $A_i$ and $B_i$ is $C_i$ $(1 \\leq i \\leq N - 1)$. In this theme park, it is ensured that you can reach one attraction from another attraction ($i.e.$ There's no \"isolated\" attraction whatsoever, and the theme park itself is not disjointed). \n\nNow, although expecting that the relationship between Kay and Deyao is to be gradually restored as time goes by, Anurag wants to start the trip by dividing them into two separate groups, and make them start at two attractions which are most distant from each other, so that he feels the least awkward. To be more precise, Anurag wants to select two attractions in such a way that the shortest path between two is maximised. Anurag wants to know that maximal distance he can choose in Disneyland Paris. Output this distance.",
+  "constraints": "$1 \\leq C_i \\leq 100$ $(1 \\leq i \\leq N - 1)$.",
+  "subtasks": [
+    {
+      "score": 0.2,
+      "constraints": "$2 \\leq N \\leq 50$."
+    },
+    {
+      "score": 0.8,
+      "constraints": "$2 \\leq N \\leq 5000$."
+    }
+  ],
+  "input": "In the first line of input, you're given $N$, the number of attractions in Disneyland in Paris.\nFollowing are $(N - 1)$ lines, each of which consists of three numbers, $A_i$, $B_i$, and $C_i$.",
+  "output": "Output the answer in a single line.",
+  "examples": [
+    {
+      "input": "5\n1 2 11\n1 3 6\n3 4 2\n3 5 6",
+      "output": "23",
+      "explanation": "If Anurag chooses attraction $2$ and $5$, the length of shortest path is $6 + 6 + 11 = 23$ and this is the maximum he can get.\n"
+    },
+    {
+      "input": "30\n20 24 45\n28 2 92\n28 3 15\n14 4 89\n5 11 15\n16 8 31\n27 9 24\n17 20 3\n15 18 99\n6 22 75\n18 26 4\n11 21 86\n30 15 65\n8 6 5\n15 28 46\n25 16 60\n15 14 13\n6 10 1\n24 7 62\n20 27 83\n25 30 12\n24 23 79\n30 5 2\n20 12 3\n20 29 80\n25 17 20\n6 13 12\n15 1 11\n30 19 63",
+      "output": "386"
+    }
+  ]
+}
