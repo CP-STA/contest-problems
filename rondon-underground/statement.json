@@ -29,8 +29,8 @@
       "constraints": "No more constraints"
     }
   ],
-  "input": "The first line contains four numbers, $k$, $m$, $p$, and $q$ which is the number of minute you wait, the number of stations, the station you are currently on, and the number of lines. \n\nIn the next $q$ lines, each line denotes the stations a train line goes through. These stations are numbered from 1 to m.",
-  "output": "Output two numbers -- the number of routes get back to the same station in $k$ minute and the number of total possible routes in $k$ minutes. Since the numbers can be really large, output the remainder of the answers divided by $10^9 + 7$.",
+  "input": "The first line contains four numbers, $k$, $m$, $p$, and $q$ which is the number of minutes you have to wait, the number of stations, the station you are currently at, and the number of lines. \n\nIn the next $q$ lines, each line denotes the stations a train line goes through. These stations are numbered from $1$ to $m$.",
+  "output": "Output two numbers -- the number of routes to get back to station $p$ costing exactly $k$ minutes and the number of total possible routes to travel from station $p$ costing $k$ minute. Since the answers can be astronomically large, output the remainder of the answers divided by $10^9 + 7$.",
   "examples": [
     {
       "input": "2 10 6 1\n1 6 8",
