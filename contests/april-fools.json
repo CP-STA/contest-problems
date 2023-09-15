@@ -6,9 +6,9 @@
         "additionalText": "This is our major competition for this academic year, sponsored by [St Andrews Mathematics Society](https://sums-sta.github.io).\n\n There will be prizes of £50, £20, £10 for the top three contestants. This contest is open to everyone to attend, but the prizes are only eligible for students in a Scottish University. You will need a github account to participate. If you are a student in a Scottish University, please [register](https://forms.office.com/e/6pxQRsZ4DX) before the start of the contest in order to be qualified for the prize, otherwise there is no need to fill in the form. \n\n Please [follow our discord](https://discord.gg/8wTzq7Megd) for updates on the contest, and ask question.\n"
     },
     "next": {
-        "name": "Mathematical Programming Competition",
-        "startTime": "2023-10-07T14:00:00.000z",
-        "endTime": "2023-10-07T16:30:00.000z"
+        "name": "Maths Programming Competition",
+        "startTime": "2023-10-07T14:00:00.000Z",
+        "endTime": "2023-10-07T16:30:00.000Z"
     },
     "problems": [
         {
