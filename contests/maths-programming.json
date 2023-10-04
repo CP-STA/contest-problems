@@ -1,0 +1,49 @@
+{
+    "info": {
+        "name": "Maths Programming Competition",
+        "startTime": "2023-10-07T14:00:00.000Z",
+        "endTime": "2023-10-07T16:30:00.000Z"
+    },
+    "problems": [
+        {
+            "name": "MABP",
+            "slug": "mabp",
+            "difficulty": "☆"
+        },
+        {
+            "name": "Power Quintet",
+            "slug": "power-quintet",
+            "difficulty": "☆"
+        },
+        {
+            "name": "Silver Ratio",
+            "slug": "silver-ratio",
+            "difficulty": "☆☆"
+        },
+        {
+            "name": "f naturaliser",
+            "slug": "f-naturaliser",
+            "difficulty": "☆☆"
+        },
+        {
+            "name": "Numeral Quartet",
+            "slug": "numeral-quartet",
+            "difficulty": "☆☆☆"
+        },
+        {
+            "name": "Proper Acronym 2",
+            "slug": "proper-acronym-2",
+            "difficulty": "☆☆☆"
+        },
+        {
+            "name": "Medical Students on Instagram",
+            "slug": "medical-students-on-instagram",
+            "difficulty": "☆☆☆"
+        },
+        {
+            "name": "Concert Organiser",
+            "slug": "concert-organiser",
+            "difficulty": "☆☆☆☆"
+        }
+    ]
+}
