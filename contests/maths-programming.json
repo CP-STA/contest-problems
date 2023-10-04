@@ -21,7 +21,7 @@
             "difficulty": "☆☆"
         },
         {
-            "name": "f naturaliser",
+            "name": "f Naturaliser",
             "slug": "f-naturaliser",
             "difficulty": "☆☆"
         },
@@ -33,6 +33,11 @@
         {
             "name": "Proper Acronym 2",
             "slug": "proper-acronym-2",
+            "difficulty": "☆☆☆"
+        },
+        {
+            "name": "Sigma XOR",
+            "slug": "sigma-xor",
             "difficulty": "☆☆☆"
         },
         {
