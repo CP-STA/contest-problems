@@ -1,0 +1,39 @@
+{
+  "name": "Sigma XOR",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "Given a positive integer $N$, answer the value of $1 \u2295 2 \u2295 ... \u2295 N$, where $\u2295$ signifies XOR operation.\n\nNote that, in XOR operation of two integers, each bit of two integers in binary format is calculated in the following manner: $0 \u2295 0 = 0$, $0 \u2295 1 = 1$, $1 \u2295 0 = 1$, $1 \u2295 1 = 0$. For example, $12_{(10)} \u2295 34_{(10)} = 001100_{(2)} \u2295 100010_{(2)} = 101110_{(2)} = 46_{(10)}$.",
+  "constraints": "$1 \\leq N \\leq 10^{15}$.",
+  "subtasks": [
+    {
+      "score": 0.2,
+      "constraints": "$1 \\leq N \\lt 10^{5}$."
+    },
+    {
+      "score": 0.8,
+      "constraints": "$10^{5} \\leq N \\leq 10^{15}$."
+    }
+  ],
+  "input": "The input consists of one integer, $N$.",
+  "output": "Output the answer.",
+  "examples": [
+    {
+      "input": "14",
+      "output": "15",
+      "explanation": "$1 \u2295 2 \u2295 ... \u2295 14 = 15$.\n"
+    },
+    {
+      "input": "1",
+      "output": "1",
+      "explanation": "Note that when $N = 1$ we do not perform any operation.\n"
+    },
+    {
+      "input": "392857971529353",
+      "output": "1",
+      "explanation": "May I please skip the explanation for this."
+    }
+  ]
+}

@@ -1,5 +1,59 @@
 [
   {
+      "name": "MABP",
+      "slug": "mabp",
+      "date": "2023-10-07T14:00:00.000Z",
+      "difficulty": "☆"
+  },
+  {
+      "name": "Power Quintet",
+      "slug": "power-quintet",
+      "date": "2023-10-07T14:00:00.000Z",
+      "difficulty": "☆"
+  },
+  {
+      "name": "Silver Ratio",
+      "slug": "silver-ratio",
+      "date": "2023-10-07T14:00:00.000Z",
+      "difficulty": "☆☆"
+  },
+  {
+      "name": "f Naturaliser",
+      "slug": "f-naturaliser",
+      "date": "2023-10-07T14:00:00.000Z",
+      "difficulty": "☆☆"
+  },
+  {
+      "name": "Numeral Quartet",
+      "slug": "numeral-quartet",
+      "date": "2023-10-07T14:00:00.000Z",
+      "difficulty": "☆☆☆"
+  },
+  {
+      "name": "Proper Acronym 2",
+      "slug": "proper-acronym-2",
+      "date": "2023-10-07T14:00:00.000Z",
+      "difficulty": "☆☆☆"
+  },
+  {
+      "name": "Sigma XOR",
+      "slug": "sigma-xor",
+      "date": "2023-10-07T14:00:00.000Z",
+      "difficulty": "☆☆☆"
+  },
+  {
+      "name": "Medical Students on Instagram",
+      "slug": "medical-students-on-instagram",
+      "date": "2023-10-07T14:00:00.000Z",
+      "difficulty": "☆☆☆"
+  },
+  {
+      "name": "Concert Organiser",
+      "slug": "concert-organiser",
+      "date": "2023-10-07T14:00:00.000Z",
+      "difficulty": "☆☆☆☆"
+  },
+  {
       "name": "Mozart Index",
       "slug": "mozart-index",
       "date": "2023-04-01T16:00:00.000Z",

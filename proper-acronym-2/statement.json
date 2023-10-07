@@ -1,0 +1,44 @@
+{
+  "name": "Proper Acronym 2",
+  "author": "Kay Akashi",
+  "time": 2000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "(This problem is a continuation of [Proper Acronym](https://judge.cpsta.co.uk/problems/proper-acronym). )\n\nKay is still struggling with memorising the medical terms today. Recently, Kay is observing weird acronyms that are in common use in the field of medicine. For example, in his oncology lecture, he learnt the protein named Human Epidermal Growth Factor Receptor 2 (the protein that promotes the growth of cancer cells particularly in female breast). Seeing this protein name, he initially presumed that the given acronym for this protein was \"HEGFR2\". However, the acronym widely acknowledged for this is actually \"HER2\"! \n\nThe rule for this sort of acronym is that, you can take the first letters of each word that composes the name, but don't necessarily have to take all of them unless the resulting acronym becomes an empty sequence. Also, the order of letters must not be altered. Furthermore, you must not include any letter that does not appear in the original name. Lastly, you are not allowed to duplicate the letters. (e.g. Technically, Human Epidermal Growth Factor Receptor 2 can be HER2, HGF, E, or R2, but cannot be RH2, HER3, HHEEGGFFRR22, or 2RFGEH (not exhaustive)). \n\nBased on the aforementioned rules, your task is to judge if the given acronym $T$ is validly working as a proper acronym of the medical term $S$ consisting of $N$ words also given in the input.",
+  "constraints": "$1 \\leq |T| \\leq N \\leq 5000$. Length of word in $S$ never exceeds $10$.",
+  "subtasks": [
+    {
+      "score": 0.2,
+      "constraints": "$1 \\leq |T| \\leq N \\leq 10$."
+    },
+    {
+      "score": 0.8,
+      "constraints": "$1 \\leq |T| \\leq N \\leq 5000$."
+    }
+  ],
+  "input": "The first line of input consists of single integer, $N$, the number of words that compose $S$.\nThe second line of input contains $N$ words, forming $S$.\nThe third line of input contains one string, $T$, an acronym whose validity you have to judge.\n\nIt is ensured that the first letter of each word composing $S$ is either a capital Latin letter or an Arabic numeral.",
+  "output": "If $T$ is a proper acronym of $S$, output \"Yes\". Otherwise, \"No\".",
+  "examples": [
+    {
+      "input": "6\nHuman Epidermal Growth Factor Receptor 2\nHER2",
+      "output": "Yes"
+    },
+    {
+      "input": "3\nPatent Foramen Ovale\nPFO",
+      "output": "Yes"
+    },
+    {
+      "input": "4\nCoronary Artery Bypass Graft\nCBAG",
+      "output": "No"
+    },
+    {
+      "input": "3\nComputerised Axial Tomography\nDOG",
+      "output": "No"
+    },
+    {
+      "input": "3\nVolume Of Distribution\nDV",
+      "output": "No"
+    }
+  ]
+}

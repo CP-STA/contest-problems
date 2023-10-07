@@ -1,0 +1,23 @@
+{
+  "name": "Silver Ratio",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606",
+  "tags": [],
+  "statement": "You will think of a recursion $a_{n + 2} = pa_{n + 1} + qa_{n}$ $(a_{1} = 1, a_{2} = 1)$.\n\nGiven integers $q$ and $d$, find $p$ such that $\\lim_{n \\to \\infty} (\\frac{a_{n + 1}}{a_{n}}) = d$. In output, round $p$ to the nearest integer.",
+  "constraints": "$1 \\leq q, d \\leq 1000$.",
+  "subtasks": [],
+  "input": "The input consists of two integers, $q$ and $d$.",
+  "output": "Output the answer. Make sure the answer is rounded to the nearest integer.",
+  "examples": [
+    {
+      "input": "33 972",
+      "output": "972"
+    },
+    {
+      "input": "891 533",
+      "output": "531"
+    }
+  ]
+}

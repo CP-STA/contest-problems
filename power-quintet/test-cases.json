@@ -1,0 +1,402 @@
+[
+  {
+    "input": "46993\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "19601\n",
+    "output": "No\n"
+  },
+  {
+    "input": "49784\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "31\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "76465\n",
+    "output": "No\n"
+  },
+  {
+    "input": "68756\n",
+    "output": "No\n"
+  },
+  {
+    "input": "52934\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "92227\n",
+    "output": "No\n"
+  },
+  {
+    "input": "22206\n",
+    "output": "No\n"
+  },
+  {
+    "input": "43279\n",
+    "output": "No\n"
+  },
+  {
+    "input": "15625\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "86069\n",
+    "output": "No\n"
+  },
+  {
+    "input": "3642\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "46718\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "84793\n",
+    "output": "No\n"
+  },
+  {
+    "input": "11773\n",
+    "output": "No\n"
+  },
+  {
+    "input": "3161\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "521\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "43664\n",
+    "output": "No\n"
+  },
+  {
+    "input": "89060\n",
+    "output": "No\n"
+  },
+  {
+    "input": "31\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "33936\n",
+    "output": "No\n"
+  },
+  {
+    "input": "28896\n",
+    "output": "No\n"
+  },
+  {
+    "input": "6331\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "93573\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "92449\n",
+    "output": "No\n"
+  },
+  {
+    "input": "47199\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "12225\n",
+    "output": "No\n"
+  },
+  {
+    "input": "93344\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "6534\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "3132\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "75217\n",
+    "output": "No\n"
+  },
+  {
+    "input": "18316\n",
+    "output": "No\n"
+  },
+  {
+    "input": "99818\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "43614\n",
+    "output": "No\n"
+  },
+  {
+    "input": "9380\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "70857\n",
+    "output": "No\n"
+  },
+  {
+    "input": "3645\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "41950\n",
+    "output": "No\n"
+  },
+  {
+    "input": "69399\n",
+    "output": "No\n"
+  },
+  {
+    "input": "75451\n",
+    "output": "No\n"
+  },
+  {
+    "input": "78182\n",
+    "output": "No\n"
+  },
+  {
+    "input": "77020\n",
+    "output": "No\n"
+  },
+  {
+    "input": "6511\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "80318\n",
+    "output": "No\n"
+  },
+  {
+    "input": "99589\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "46718\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "55853\n",
+    "output": "No\n"
+  },
+  {
+    "input": "59156\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "34068\n",
+    "output": "No\n"
+  },
+  {
+    "input": "34086\n",
+    "output": "No\n"
+  },
+  {
+    "input": "96445\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "5\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "64131\n",
+    "output": "No\n"
+  },
+  {
+    "input": "49839\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "36072\n",
+    "output": "No\n"
+  },
+  {
+    "input": "93573\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "544\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "3132\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "50065\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "38054\n",
+    "output": "No\n"
+  },
+  {
+    "input": "53189\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "46692\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "46840\n",
+    "output": "No\n"
+  },
+  {
+    "input": "91448\n",
+    "output": "No\n"
+  },
+  {
+    "input": "70857\n",
+    "output": "No\n"
+  },
+  {
+    "input": "42625\n",
+    "output": "No\n"
+  },
+  {
+    "input": "22206\n",
+    "output": "No\n"
+  },
+  {
+    "input": "59156\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "66\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "52908\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "74680\n",
+    "output": "No\n"
+  },
+  {
+    "input": "64573\n",
+    "output": "No\n"
+  },
+  {
+    "input": "42625\n",
+    "output": "No\n"
+  },
+  {
+    "input": "3897\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "9698\n",
+    "output": "No\n"
+  },
+  {
+    "input": "17068\n",
+    "output": "No\n"
+  },
+  {
+    "input": "46840\n",
+    "output": "No\n"
+  },
+  {
+    "input": "47199\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "570\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "53166\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "135\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "3187\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "64573\n",
+    "output": "No\n"
+  },
+  {
+    "input": "541\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "53166\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "72420\n",
+    "output": "No\n"
+  },
+  {
+    "input": "20736\n",
+    "output": "No\n"
+  },
+  {
+    "input": "81050\n",
+    "output": "No\n"
+  },
+  {
+    "input": "43664\n",
+    "output": "No\n"
+  },
+  {
+    "input": "92610\n",
+    "output": "No\n"
+  },
+  {
+    "input": "19183\n",
+    "output": "No\n"
+  },
+  {
+    "input": "5\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "88631\n",
+    "output": "No\n"
+  },
+  {
+    "input": "83\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "78892\n",
+    "output": "No\n"
+  },
+  {
+    "input": "3416\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "15625\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "84793\n",
+    "output": "No\n"
+  },
+  {
+    "input": "62468\n",
+    "output": "No\n"
+  }
+]

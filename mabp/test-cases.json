@@ -1,0 +1,174 @@
+[
+  {
+    "input": "119 118\n",
+    "output": "121\n"
+  },
+  {
+    "input": "100 82\n",
+    "output": "136\n"
+  },
+  {
+    "input": "135 133\n",
+    "output": "139\n"
+  },
+  {
+    "input": "110 104\n",
+    "output": "122\n"
+  },
+  {
+    "input": "128 125\n",
+    "output": "134\n"
+  },
+  {
+    "input": "101 98\n",
+    "output": "107\n"
+  },
+  {
+    "input": "135 135\n",
+    "output": "135\n"
+  },
+  {
+    "input": "110 106\n",
+    "output": "118\n"
+  },
+  {
+    "input": "108 93\n",
+    "output": "138\n"
+  },
+  {
+    "input": "86 76\n",
+    "output": "106\n"
+  },
+  {
+    "input": "128 127\n",
+    "output": "130\n"
+  },
+  {
+    "input": "109 102\n",
+    "output": "123\n"
+  },
+  {
+    "input": "135 134\n",
+    "output": "137\n"
+  },
+  {
+    "input": "113 102\n",
+    "output": "135\n"
+  },
+  {
+    "input": "100 89\n",
+    "output": "122\n"
+  },
+  {
+    "input": "127 125\n",
+    "output": "131\n"
+  },
+  {
+    "input": "92 76\n",
+    "output": "124\n"
+  },
+  {
+    "input": "86 84\n",
+    "output": "90\n"
+  },
+  {
+    "input": "134 131\n",
+    "output": "140\n"
+  },
+  {
+    "input": "140 140\n",
+    "output": "140\n"
+  },
+  {
+    "input": "112 110\n",
+    "output": "116\n"
+  },
+  {
+    "input": "113 106\n",
+    "output": "127\n"
+  },
+  {
+    "input": "97 96\n",
+    "output": "99\n"
+  },
+  {
+    "input": "106 99\n",
+    "output": "120\n"
+  },
+  {
+    "input": "120 119\n",
+    "output": "122\n"
+  },
+  {
+    "input": "95 77\n",
+    "output": "131\n"
+  },
+  {
+    "input": "95 93\n",
+    "output": "99\n"
+  },
+  {
+    "input": "134 133\n",
+    "output": "136\n"
+  },
+  {
+    "input": "83 68\n",
+    "output": "113\n"
+  },
+  {
+    "input": "138 138\n",
+    "output": "138\n"
+  },
+  {
+    "input": "117 115\n",
+    "output": "121\n"
+  },
+  {
+    "input": "81 79\n",
+    "output": "85\n"
+  },
+  {
+    "input": "91 67\n",
+    "output": "139\n"
+  },
+  {
+    "input": "74 72\n",
+    "output": "78\n"
+  },
+  {
+    "input": "91 88\n",
+    "output": "97\n"
+  },
+  {
+    "input": "82 70\n",
+    "output": "106\n"
+  },
+  {
+    "input": "121 115\n",
+    "output": "133\n"
+  },
+  {
+    "input": "130 125\n",
+    "output": "140\n"
+  },
+  {
+    "input": "92 72\n",
+    "output": "132\n"
+  },
+  {
+    "input": "126 121\n",
+    "output": "136\n"
+  },
+  {
+    "input": "106 97\n",
+    "output": "124\n"
+  },
+  {
+    "input": "136 136\n",
+    "output": "136\n"
+  },
+  {
+    "input": "125 123\n",
+    "output": "129\n"
+  }
+]
