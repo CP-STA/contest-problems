@@ -18,7 +18,7 @@ def test_path_space(dir):
 
 def test_files_exist(dir):
   files = os.listdir(dir) 
-  for required in ['statement.md', 'test-cases.json', 'constraints.json']:
+  for required in ['statement.md', 'test-cases.json']:
     if required not in files:
       raise ValueError(f"{required} not found")
 
@@ -268,37 +268,3 @@ def test_json_subtasks_numbered_all(dir):
         subtasks_found.add(test_case['subtask'])
     if subtasks_should != subtasks_found:
       raise ValueError(f"Not all subtasks numbers are found in the test cases. Expected: {subtasks_should}, found: {subtasks_found}")
-
-@pytest.mark.depends(on=['test_files_exist'])
-def test_constraints_exist(dir):
-  constraints_expected = {'memory', 'time'}
-  constraints_missing = set()
-  with open('constraints.json') as f:
-    constraints_found = json.load(f)
-  for constrain_expected in constraints_expected:
-    if constrain_expected not in constraints_found:
-      constraints_missing.add(constrain_expected)
-  if constraints_missing:
-    raise ValueError(f"Some required constraints not found in constraints.json. Those are {constraints_missing}")
-
-@pytest.mark.depends(on=['test_files_exist'])
-def test_constraints_same(dir):
-  table = {
-    "Memory (kb)": "memory",
-    "Time (ms)": "time",
-  }
-  with open('constraints.json') as f:
-    constraints = json.load(f)
-  diff = []
-  with open('statement.md') as f:
-    read_next = None
-    for line in f:
-      if read_next and line.strip():
-        number = int(line.strip())
-        if number != constraints[read_next]:
-          diff.append([read_next, constraints[read_next], number])
-        read_next = None
-      elif not read_next and table.get(line[2:].strip(), None) in constraints:
-        read_next = table.get(line[2:].strip(), None)
-    if diff:
-      raise ValueError(f"The constraints given in statement.md does not match those given in constraints.json. Difference (format: [[name, number in constraints.json, number in statement.md], ...]): {diff}")
