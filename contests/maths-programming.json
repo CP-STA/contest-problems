@@ -4,6 +4,11 @@
         "startTime": "2023-10-07T14:00:00.000Z",
         "endTime": "2023-10-07T16:30:00.000Z"
     },
+    "next": {
+        "name": "Maths Programming Competition 2",
+        "startTime": "2024-03-09T15:00:00.000Z",
+        "endTime": "2024-03-09T17:00:00.000Z"
+    },
     "problems": [
         {
             "name": "MABP",
