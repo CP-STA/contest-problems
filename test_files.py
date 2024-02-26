@@ -5,6 +5,7 @@ import re
 import json
 import math
 from utils import parse_subtask_score
+import compile_statement
 
 
 @pytest.fixture(scope="session")
@@ -18,7 +19,7 @@ def test_path_space(dir):
 
 def test_files_exist(dir):
   files = os.listdir(dir) 
-  for required in ['statement.md', 'test-cases.json']:
+  for required in ['statement.md', 'test-cases.json', 'statement.json']:
     if required not in files:
       raise ValueError(f"{required} not found")
 
@@ -112,6 +113,14 @@ def test_markdown_headings_in_order(dir):
   if headings_order != should_exists_headings:
     raise ValueError(f"Headings in the markdown are not in order, it should be {should_exists_headings}, but found {headings_order}")
 
+@pytest.mark.depends(on=['test_files_exist'])
+def test_statement_matches(dir):
+  with open(os.path.join(dir, 'statement.json')) as f:
+    statement_text = f.read()
+  supposed_text = compile_statement.main(dir, return_string=True)
+  if statement_text != supposed_text:
+    raise ValueError("statement.json does not match statement.md, check if you have compiled the lastest statement")
+  
 
 def subtasks_count(dir):
   count = 0

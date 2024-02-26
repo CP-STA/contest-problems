@@ -13,7 +13,7 @@ def main():
     with open(f'{os.path.join(problem["slug"], "statement.json")}') as f:
       statement = json.load(f)
       assert statement["difficulty"] == problem["difficulty"], f"difficulties in index and in problem are not the same for {problem['slug']}"
-  print("All checks passed.")
+  print("past-problems.json checks passed.")
   return 0
 
 

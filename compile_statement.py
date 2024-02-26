@@ -43,7 +43,7 @@ shallow_headings = {
   'statement',
 }
 
-def main(folder):
+def main(folder, return_string=False):
   
   # Validate the input file
   test_files_path = os.path.join(os.path.dirname(__file__), 'test_files.py')
@@ -124,8 +124,11 @@ def main(folder):
         if ('explanation' in examples[i]):
           examples[i]["explanation"] = ''.join(examples[i]["explanation"])
       statement_json[key] = examples
-  with open(os.path.join(folder, 'statement.json'), 'w') as f:
-    json.dump(statement_json, f, indent=2)
+  if not return_string:
+    with open(os.path.join(folder, 'statement.json'), 'w') as f:
+      json.dump(statement_json, f, indent=2)
+  else:
+    return(json.dumps(statement_json, indent=2))
   return 0
 
 if __name__ == '__main__':
