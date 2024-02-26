@@ -20,7 +20,6 @@ import argparse
 import subprocess
 import functools
 import check_past_problems
-import json
 
 dir_path = None
 problem_path = None
@@ -42,27 +41,27 @@ def check_dir():
   return dir_path
 
 def main():
+  exclude_dirs = ['contests', '.vscode', '.github']
+  with open(os.path.join(os.path.dirname(__file__),'.gitignore')) as f:
+    exclude_dirs += list(map(lambda x: x.strip(), f.read().split('\n')))
   if args.all:
     check_past_problems.main()
-    problems = []
-    with open("past-problems.json") as f:
-      problems += json.load(f)
-    with open("upcoming-contest.json") as f:
-      contest = json.load(f)
-    with open(f"contests/{contest}.json") as f:
-      problems += json.load(f)["problems"]
-    problems = list(map(lambda x: x['slug'], problems))
+    list_of_files = os.listdir(os.path.dirname(__file__))
     returncodes = []
-    for path in problems:
+    for path in list_of_files:
       abs_path = os.path.join(os.path.dirname(__file__), path)
-      print(['python3', __file__, abs_path])
-      p = subprocess.run(['python3', __file__, abs_path])
-      returncodes.append(p.returncode)
+      if os.path.isdir(abs_path) and not path.startswith('.'):
+        print(['python3', __file__, abs_path])
+        p = subprocess.run(['python3', __file__, abs_path])
+        returncodes.append(p.returncode)
     return functools.reduce(lambda x, y: x | y, returncodes)
   else:
     global dir_path
     dir_path = check_dir()
     os.chdir(dir_path)
+    if os.path.basename(dir_path) in exclude_dirs:
+      print("Skipping because the folder is excluded")
+      return 0
     return pytest.main(['-rs', '--dir', dir_path, os.path.join(problem_path, 'test_files.py')])
 
 if __name__ == '__main__':

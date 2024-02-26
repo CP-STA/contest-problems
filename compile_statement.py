@@ -139,11 +139,20 @@ if __name__ == '__main__':
   parser.add_argument('--contest', '-C', action='store_true', default=False, help="Compile all the contest problems as defined in upcoming-contest.json")
   args = parser.parse_args()
   if args.all:
+    problems = []
+    exclude_dirs = ['contests', '.vscode', '.github']
+    with open(os.path.join(os.path.dirname(__file__),'.gitignore')) as f:
+      exclude_dirs += list(map(lambda x: x.strip(), f.read().split('\n')))
+    list_of_files = os.listdir(os.path.dirname(__file__))
+    returncodes = []
+    for path in list_of_files:
+      abs_path = os.path.join(os.path.dirname(__file__), path)
+      if os.path.isdir(abs_path) and not path.startswith('.') and not os.path.basename(path) in exclude_dirs:
+        problems.append(path)
+    print(problems)
     retcode = []
-    with open("past-problems.json") as f:
-      problems = json.load(f)
     for problem in problems:
-      retcode.append(main(problem['slug']))
+      retcode.append(main(problem))
       pass
     exit(functools.reduce(lambda x, y: x | y, retcode))
   elif args.contest:
