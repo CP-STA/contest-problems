@@ -22,6 +22,11 @@
             "difficulty": "☆☆"
         },
         {
+            "name": "Long Floating Number",
+            "slug": "long-floating-number",
+            "difficulty": "☆☆"
+        },
+        {
             "name": "Object Eraser",
             "slug": "object-eraser",
             "difficulty": "☆☆☆"
@@ -42,8 +47,8 @@
             "difficulty": "☆☆☆☆"
         },
         {
-            "name": "Last Two Digits",
-            "slug": "last-two-digits",
+            "name": "Simple Recursion",
+            "slug": "simple-recursion",
             "difficulty": "☆☆☆☆"
         }
     ]
