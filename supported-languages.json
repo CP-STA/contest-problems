@@ -23,6 +23,12 @@
     "compiled": false,
     "extension": "py"
   },
+  "pypy-3.8": {
+    "name": "pypy@3.8",
+    "monaco": "python",
+    "compiled": false,
+    "extension": "py"
+  },
   "nodejs-12.22": {
     "name": "nodejs@12.2",
     "monaco": "javascript",
