@@ -1,4 +1,58 @@
 [
+	        {
+            "name": "Montmort Number",
+            "slug": "montmort-number",
+      "date": "2023-10-07T14:00:00.000Z",
+            "difficulty": "☆"
+        },
+        {
+            "name": "Flail Chest",
+            "slug": "flail-chest",
+      "date": "2023-10-07T14:00:00.000Z",
+            "difficulty": "☆"
+        },
+        {
+            "name": "String Quartet",
+            "slug": "string-quartet",
+      "date": "2023-10-07T14:00:00.000Z",
+            "difficulty": "☆☆"
+        },
+        {
+            "name": "Long Floating Number",
+            "slug": "long-floating-number",
+      "date": "2023-10-07T14:00:00.000Z",
+            "difficulty": "☆☆"
+        },
+        {
+            "name": "Object Eraser",
+            "slug": "object-eraser",
+      "date": "2023-10-07T14:00:00.000Z",
+            "difficulty": "☆☆☆"
+        },
+        {
+            "name": "Two Medics at CS Ball",
+            "slug": "two-medics-at-cs-ball",
+      "date": "2023-10-07T14:00:00.000Z",
+            "difficulty": "☆☆☆"
+        },
+        {
+            "name": "Clinical Tutorial Groups",
+            "slug": "clinical-tutorial-groups",
+      "date": "2023-10-07T14:00:00.000Z",
+            "difficulty": "☆☆☆"
+        },
+        {
+            "name": "Tokyo Exploration",
+            "slug": "tokyo-exploration",
+      "date": "2023-10-07T14:00:00.000Z",
+            "difficulty": "☆☆☆☆"
+        },
+        {
+            "name": "Simple Recursion",
+      "date": "2023-10-07T14:00:00.000Z",
+            "slug": "simple-recursion",
+            "difficulty": "☆☆☆☆"
+        },
   {
       "name": "MABP",
       "slug": "mabp",
