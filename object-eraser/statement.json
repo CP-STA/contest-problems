@@ -1,0 +1,30 @@
+{
+  "name": "Object Eraser",
+  "author": "Kay Akashi",
+  "time": 2000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "Japanese alphabets are often more complex than those of English, thus each of them has multiple \"strokes\". For example, \"depression\" in Japanese is \"\u9b31\" that requires $29$ strokes. \n\nKay has written a sentence in Japanese on his tablet. Now, Kay knows his sentence consists of $N$ characters, and $i$-th character has $A_i$ characters. \n\nHis tablet has a function called \"object eraser\" which enables him to delete the last stroke from the last character. After deleting all the strokes in a single character, the character is completely erased.\n\nHe says he is going to press the object eraser button $K$ times, but is unsure how many characters are going to be completely erased. Tell him the answer.",
+  "constraints": "$1 \\leq N \\leq 10^{5}$.\n$0 \\leq K \\leq 10^{12}$.\n$1 \\leq A_i \\leq 10^{9}$ ($1 \\leq i \\leq N$).\n\nApologies for unrealistic constraints (no Japanese character requires as many as $1$ billion strokes in reality).",
+  "subtasks": [],
+  "input": "The first line of input contains two integers, $N$ and $K$.\nThe second line of input contains $N$ integers, $A_1, A_2, ..., A_N$.",
+  "output": "Output a single integer, the number of characters being erased completely.",
+  "examples": [
+    {
+      "input": "5 6\n3 2 5 2 2",
+      "output": "2",
+      "explanation": "The sentence is \"\u3042\u308a\u304c\u3068\u3046\" (*arigatou*, meaning \"thank you\"). After pressing the button $6$ times, the last two characters are completely gone, but the third letter remains undeleted, only to transfer \"\u304c\" to \"\u304b\".\n"
+    },
+    {
+      "input": "2 12\n7 5",
+      "output": "2",
+      "explanation": "\"\u5bff\u53f8\" (*sushi*, meaning \"sushi\"). Every character is gone after pressing the button $12$ times because the word as a whole consists of $12$ strokes. \n"
+    },
+    {
+      "input": "29 40\n12 9 3 3 3 2 2 3 1 2 3 15 14 1 1 1 2 1 3 2 5 2 2 4 5 2 3 2 1",
+      "output": "16",
+      "explanation": "\"\u6700\u5f8c\u307e\u3067\u30c6\u30b9\u30c8\u30b1\u30fc\u30b9\u3092\u78ba\u8a8d\u3057\u3066\u304f\u308c\u3066\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\" (well, just use a translator if you're interested). \n"
+    }
+  ]
+}

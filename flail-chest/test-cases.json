@@ -1,0 +1,402 @@
+[
+  {
+    "input": "xxoooooxxoox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oxoxoxoxoxox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "ooooxxxoxoox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "ooxoooxoxxxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxxxooooxoox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "ooooxxxooxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxoooxxxxooo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxxooxxoooxx\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oxxoxooxxoox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oooxoxoooxxo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oxxxooooxoox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxxooooxoxoo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "ooxoxooooxox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xxxooxxxoxox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xooxoxoooxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xooxooxxooox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oxoxxxooxoox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxxooooxooxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxooooxoooxo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oxooxooooxoo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xoooxooxooxo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xoxxoooooxox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "ooooxxxxoxxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxoooooxxxox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxooooxxooxx\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xoxxxoxxxoxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "ooxooxxxoxox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxooxxxxoox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxxoxoooooxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxoxxoooooox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xoooooxoxxxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxooooxooxo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xoxooxxoxxxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxxxoxxoxoox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxxxxxxoxoxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoooxoxooooo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xxxxxxoxxoxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxxxooxoxox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxoxoooooxx\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xoxxoxoxxxoo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxxxxoxoxxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxxooxxxoxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxxxooxxoxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxxxxooxooo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxooooxooooo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xxxoxoxxxxox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxxoxxxoxxxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oooooooxoxox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xxxoxoxooooo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxooxxoxxoxo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oooooxxxoxoo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxooxxooxoox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xxxxooxooooo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "ooxxxoxxxoxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxxxoxxxoxox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxxxoxxxooxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxooxoooxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxooooooxoxo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oxoxoxoooxox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xxxoxxxxooxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxxxxooooox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xooxxxoxoxoo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oooxxoooxoxx\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oxoooxooxoxx\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oxoooxoooxox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xoxxxoxoxxoo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxxooxooxxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxooxooooxxo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xoxoxooxoxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxxooxoooxoo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxooxxxxoxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xooooxxxxoox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxxoooxxxxox\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "ooooxoxxxoxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxoxxxxxoxxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xxxoxxoxoxxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoooxoxxxxoo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxxooxxxoxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxoooxooxxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xooxxxxooxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxoxoxxoxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxoxoxooxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oooxooxoxooo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xxoxxxxxoooo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxoxxooooxxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxoxxoxxooox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oxoxxxoxxxxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxxxoooxoxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "ooxxoxoooxxo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xooooooxxxxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oxxxoxxxxoxx\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oooxoxooooox\n",
+    "output": "No\n"
+  },
+  {
+    "input": "ooxxoxxooxxo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oxoooxooooxo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "ooxxoxooxooo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "oooxxxooxoxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xoxxoxxxooxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "oooxxxxooxxo\n",
+    "output": "Yes\n"
+  },
+  {
+    "input": "xooxxoxxooxo\n",
+    "output": "No\n"
+  },
+  {
+    "input": "xxxooxxxxxxx\n",
+    "output": "Yes\n"
+  }
+]

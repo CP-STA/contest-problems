@@ -1,0 +1,34 @@
+{
+  "name": "Two Medics at CS Ball",
+  "author": "Kay Akashi",
+  "time": 3000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "Kay is an introvert. However, he determined to make new friends. Thus, he's bought a ticket for Computer Science Ball happening soon, although he's not a CS student.\n\nBut Kay is an introvert. Because he's too frightened to go there by himself, he asked his friend Liana in his medicine class to join him. \n\nNow Kay and Liana are in the ball venue. It looks like $N$ CS students are there, meaning there're $N + 2$ people there in total.\n\nBut Kay is an introvert. He ends up with talking only to Liana and never tries to socialise with others at all. Moreover, he's feeling annoyed (*how selfish he is!*) when a pair of two CS students is standing in a way that the line segment between them intersects with that between Kay and Liana. Note that, Kay is such a selfish person who also gets annoyed when at least one person of the pair is standing on the line segment betweek Kay and Liana. Also, he gets annoyed when either Kay or Liana is on the line segment between a pair of two CS students.\n\nThe venue is expressed as a two-dimensional graph with x and y-axes. Everyone's locations have non-negative integer values on both x and y-axes. Kay is standing at ($K_x, K_y$), Liana is standing at ($L_x, L_y$). Other $N$ CS students are standing at ($X_i$, $Y_i$) ($1 \\leq i \\leq N$). Your task is to count the number of pairs that annoy miserable Kay.",
+  "constraints": "$1 \\leq N \\leq 200$.\n$0 \\leq K_x, K_y, L_x, L_y, X_i, Y_i \\leq 500$. All the locations are provided as integers.",
+  "subtasks": [],
+  "input": "The first line of input contains a single integer $N$, the number of CS students joining the ball.\nThe second line of input contains $4$ integers, $K_x$, $K_y$, $L_x$, and $L_y$, locations of Kay and Liana.\nThen, $N$ lines follow, each of which contains $2$ integers, $X_i$ and $Y_i$, the location of student $i$. \n\nIt is ensured that no two persons are standing at the exact same location.",
+  "output": "Output a single integer, the number of pairs that annoy Kay.",
+  "examples": [
+    {
+      "input": "4\n3 0 3 3\n0 0\n100 101\n6 4\n100 100",
+      "output": "2",
+      "explanation": "Student $1$ and $3$ are annoying Kay, because the line segment between them intersects with that between Kay and Liana at ($x$, $y$) = ($3$, $2$). Also, student $1$ and $4$ are annoying Kay because Liana is standing between them. No other pair annoys Kay, so output $2$, the total number of annoying pairs to Kay.\n"
+    },
+    {
+      "input": "1\n28 83 74 92\n64 73",
+      "output": "0",
+      "explanation": "No matter where the CS student is standing, Kay never gets annoyed because there's no \"pair\" of CS students who can annoy him. In such a case, output $0$. \n"
+    },
+    {
+      "input": "2\n3 0 3 3\n0 0\n1 1",
+      "output": "0",
+      "explanation": "Note that, student $1$ and $2$ are **not** annoying Kay at all in this scenario.\n"
+    },
+    {
+      "input": "15\n245 61 115 444\n345 134\n3 131\n74 99\n234 339\n89 77\n10 10\n75 75\n92 111\n111 500\n88 290\n72 73\n77 11\n0 88\n66 91\n111 300",
+      "output": "24"
+    }
+  ]
+}

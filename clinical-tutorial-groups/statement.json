@@ -1,0 +1,29 @@
+{
+  "name": "Clinical Tutorial Groups",
+  "author": "Kay Akashi",
+  "time": 2000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "Students in the School of Medicine are divided into several small clinical tutorial groups for clinical skills teaching. The groups are shuffled every year.\n\nThere're $N$ students in the School. You're given information as to \"who was with who\" as $M_{1}$ pairs last year. Then, you're also given the same information of $M_{2}$ pairs this year. Be noted that these information do not give you comprehensive lists of pairs (i.e. $M_{1}, M_{2} \\leq \\frac{N(N - 1)}{2}$).\n\nAmongst $M_{2}$ pairs of clinical groups allocation this year, how many of them were the pairs of two students who were in the same group last year, according to the provided information?\n\nStudents are denoted as numbers $1$, $2$, ..., $N$. Suppose that there was no student who was added to or left the class during the transition of those two academic years.",
+  "constraints": "$2 \\leq N, M_{1}, M_{2} \\leq 10^{5}$",
+  "subtasks": [],
+  "input": "The first line of input is a single integer, $N$.\nThe second line is a single integer, $M_{1}$.\nThen, $M_{1}$ lines follow, each of each is shown by $p$ and $q$ ($1 \\leq p, q \\leq N$, $p \\neq q$) separated by a single blank space, indicating student $p$ and $q$ were in the same group last year.\nThe ($M_{1} + 3$)-th line of input is a single integer, $M_{2}$.\nThen, $M_{2}$ lines follow, each of each is shown by $p$ and $q$ ($1 \\leq p, q \\leq N$, $p \\neq q$) separated by a single blank space, indicating student $p$ and $q$ are in the same group this year.",
+  "output": "Answer the number of pairs amongst last $M_{2}$ lines two of which were in the same group last year as well.",
+  "examples": [
+    {
+      "input": "6\n6\n1 2\n2 5\n5 2\n3 4\n4 6\n6 3\n4\n3 1 \n6 4\n2 3 \n1 2",
+      "output": "2",
+      "explanation": "$6$ students are divided into $2$ groups.\nLast year, Group $1$ had students $1$, $2$, and $5$. Group $2$ had students $3$, $4$, and $6$.\nNow looking at this year's allocation, students $1$ and $3$ were not in the same group, so it doesn't add to the answer.\nStudents $6$ and $4$ were both in the Group $2$ last year, so there's one pair so far. \nStudent $2$ was in Group $1$ while student $3$ was in Group $2$, so not same.\nStudents $1$ and $2$ were both in Group $1$, so it counts.\nThus, the total number of pairs questioned is $2$.\n"
+    },
+    {
+      "input": "7\n3\n1 3\n3 4\n2 5\n5\n1 4\n6 7\n7 5\n5 2\n5 3",
+      "output": "2",
+      "explanation": "In the first query, note that the pair information of students $1$ and $4$ was not directly mentioned in the first $M_{1}$ queries, but they were in the same group last year. Thus it counts.\nIn the second query, students $6$ and $7$ may have been in the same group last year, but since we don't have explicit evidence, it doesn't contribute to the final answer.\nIn the third query, again any information about student $6$ is unavailable, so we don't count it.\n"
+    },
+    {
+      "input": "10\n6\n4 9\n10 9\n3 8\n3 5\n7 5\n2 6\n3\n1 7\n7 8\n2 4",
+      "output": "1"
+    }
+  ]
+}

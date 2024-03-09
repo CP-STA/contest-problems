@@ -1,0 +1,23 @@
+{
+  "name": "Montmort Number",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606",
+  "tags": [],
+  "statement": "The number of possible permutations which satisfy the following condition is called the Montmort number:\n\nThe possible number of $P = (p_1, p_2, ..., p_N)$ ( $P$ is a permutation of $(1, 2, ..., N)$ ) such that $i \\neq p_i$ for $\u2200i \u2208 (1,2,3,\u2026,N)$.\n\nThe Montmort number for the array of length $N$ is given as:\n\n$a_N = N! \\sum_{k=2}^{N} \\frac{(-1)^k}{k!}$\n\nGiven the integer $N$, output $a_N$, the Montmort number of array of length $N$.",
+  "constraints": "$2 \\leq N \\leq 15$",
+  "subtasks": [],
+  "input": "The input consists of a single integer, $N$.",
+  "output": "Output the Montmort number for $N$.",
+  "examples": [
+    {
+      "input": "3",
+      "output": "2"
+    },
+    {
+      "input": "4",
+      "output": "9"
+    }
+  ]
+}

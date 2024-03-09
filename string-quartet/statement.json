@@ -1,0 +1,29 @@
+{
+  "name": "String Quartet",
+  "author": "Kay Akashi",
+  "time": 1000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606",
+  "tags": [],
+  "statement": "Kay has $4$ strings and lays them on an X-axis. String $i$ has its left end at $x = l_i$ and right end at $x = r_i$. Now, find the length of line segment where all the $4$ strings are laid.",
+  "constraints": "$0 \\leq l_i \\lt r_i \\leq 10$.\n\nAll the input values are given as integers.",
+  "subtasks": [],
+  "input": "The input contains $4$ lines, each of which has $l_i$ and $r_i$.",
+  "output": "Output a single integer, the length of line segment where all $4$ strings overlap.",
+  "examples": [
+    {
+      "input": "0 8\n3 10\n5 8\n1 9",
+      "output": "3",
+      "explanation": "It is the line segment between $x = 5$ and $x = 8$ that satisfies the condition. Hence the length is $8 - 5 = 3$.\n"
+    },
+    {
+      "input": "0 3\n0 3\n3 6\n3 6",
+      "output": "0",
+      "explanation": "$x = 3$ satisfies the condition. However, note that the point has a length of $0$.\n"
+    },
+    {
+      "input": "0 1\n2 3\n4 5\n6 7",
+      "output": "0"
+    }
+  ]
+}

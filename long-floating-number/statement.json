@@ -1,0 +1,27 @@
+{
+  "name": "Long Floating Number",
+  "author": "Kay Akashi",
+  "time": 2000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606",
+  "tags": [],
+  "statement": "Given a positive decimal $N$, judge whether $N$ is smaller than, equal to, or larger than $1$.\n\nNote that, $N$ may contain trailing zeros (e.g. $N = 1.4040000000$).",
+  "constraints": "$0 \\leq N \\lt 2$.",
+  "subtasks": [],
+  "input": "The first line of input is a single floating value, $N$.\n$N$ is given with as many as $1000$ decimal places.",
+  "output": "If $N \\lt 1$, output \"smaller\". If $N = 1$, output \"equal\". If $1 \\lt N$, output \"larger\".",
+  "examples": [
+    {
+      "input": "1.925",
+      "output": "larger"
+    },
+    {
+      "input": "0.000000000000000000003",
+      "output": "smaller"
+    },
+    {
+      "input": "1.00000",
+      "output": "equal"
+    }
+  ]
+}

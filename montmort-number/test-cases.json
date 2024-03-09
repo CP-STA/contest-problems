@@ -1,0 +1,58 @@
+[
+  {
+    "input": "2\n",
+    "output": "1\n"
+  },
+  {
+    "input": "3\n",
+    "output": "2\n"
+  },
+  {
+    "input": "4\n",
+    "output": "9\n"
+  },
+  {
+    "input": "5\n",
+    "output": "44\n"
+  },
+  {
+    "input": "6\n",
+    "output": "265\n"
+  },
+  {
+    "input": "7\n",
+    "output": "1854\n"
+  },
+  {
+    "input": "8\n",
+    "output": "14833\n"
+  },
+  {
+    "input": "9\n",
+    "output": "133496\n"
+  },
+  {
+    "input": "10\n",
+    "output": "1334961\n"
+  },
+  {
+    "input": "11\n",
+    "output": "14684570\n"
+  },
+  {
+    "input": "12\n",
+    "output": "176214841\n"
+  },
+  {
+    "input": "13\n",
+    "output": "2290792932\n"
+  },
+  {
+    "input": "14\n",
+    "output": "32071101049\n"
+  },
+  {
+    "input": "15\n",
+    "output": "481066515734\n"
+  }
+]

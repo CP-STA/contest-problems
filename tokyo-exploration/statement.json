@@ -1,0 +1,33 @@
+{
+  "name": "Tokyo Exploration",
+  "author": "Kay Akashi",
+  "time": 2000,
+  "memory": 256000,
+  "difficulty": "\u2606\u2606\u2606\u2606",
+  "tags": [],
+  "statement": "Tokyo is a wonderland of gastronomy.\n\nThere're $N$ sushi places and $M$ ramen places in one area of Tokyo. $i$-th sushi place costs you $A_i$ yen ($1 \\leq i \\leq N$) and $j$-th ramen place costs you $B_j$ yen ($1 \\leq j \\leq M$) (note: yen is a Japanese currency). \n\nYou decided to go to one sushi restaurant for lunch and one ramen restaurant for dinner. Given an integer $K$ ($1 \\leq K \\leq N + M$), output the $K$-th biggest price you're going to spend in total. More formally, output the $K$-th greatest value of $A_i + B_j$ where $1 \\leq i \\leq N$ and $1 \\leq j \\leq M$.",
+  "constraints": "$1 \\leq K \\leq N + M$. $1 \\leq A_i, B_j \\leq 10^9$.",
+  "subtasks": [
+    {
+      "score": 0.25,
+      "constraints": "$1 \\leq N, M \\leq 100$."
+    },
+    {
+      "score": 0.75,
+      "constraints": "$1 \\leq N, M \\leq 10^5$."
+    }
+  ],
+  "input": "The first line of input contains $3$ integers, $N$, $M$, and $K$.\nThe second line of input contains $N$ integers, $A_1$, $A_2$, ..., $A_N$.\nThe third line of input contains $M$ integers, $B_1$, $B_2$, ..., $B_M$.",
+  "output": "Output a single integer, the $K$-th biggest total price of sushi lunch and ramen dinner.",
+  "examples": [
+    {
+      "input": "3 3 5\n1200 1500 1000\n800 1100 1700",
+      "output": "2300",
+      "explanation": "From the most expensive to cheapest, possible combined prices are as follows: $3200, 2900, 2700, 2600, 2300, 2300, 2100, 2000, 1800$. The $5$-th most expensive combination is $2300$ yen. \n"
+    },
+    {
+      "input": "7 5 12\n1234 2342 8255 9273 1400 988 1482\n3002 2351 1925 1351 1000",
+      "output": "4693"
+    }
+  ]
+}
